@@ -1,4 +1,28 @@
+.clientsSection {
+  width: 50%;
+  margin: 0 auto;
+}
 .clientsList {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(28, 1fr);
+  position: relative;
+}
+
+.horLine {
+  margin-top: 12rem;
+}
+
+.clientImage {
+  border: var(--gray-light);
+  border-radius: 1rem;
+}
+
+.colorPink {
+  background-color: var(--avenues-pink);
+}
+
+.colorNavy {
+  background-color: var(--avenues-navy);
+  grid-column: 4 / -1;
+  grid-row: 1;
 }

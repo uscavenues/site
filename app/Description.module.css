@@ -1,5 +1,7 @@
 .descSection {
   padding: 1rem 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .descText {
@@ -9,15 +11,15 @@
 .boxedText {
   background-color: var(--avenues-navy);
   color: var(--white);
-  padding: 0 .2rem;
+  padding: 0 0.2rem;
 }
 
 @media screen and (min-width: 40rem) {
   .descText {
     font-size: 24px;
+    width: 65%;
   }
 
   .descSection {
-    width: 65%;
   }
 }

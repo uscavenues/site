@@ -20,7 +20,7 @@ export default function HomePage() {
         {/* <Welcome /> */}
         <Hero />
         <Description />
-        <WhatWeDo />
+        {/* <WhatWeDo /> */}
         <Clients />
       </main>
       <Footer />

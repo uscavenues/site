@@ -1,0 +1,22 @@
+.heroSection {
+  height: 30rem;
+  text-align: center;
+}
+
+.heroTitle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.heroImg {
+  position: relative;
+  z-index: -1;
+}
+
+.leftImg {
+  bottom: 2rem;
+}
+
+.rightImg {
+  top: 2rem;
+}

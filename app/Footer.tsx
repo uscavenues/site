@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.leftSection}>
+      <div className={styles.footerSection}>
         <div className={styles.socialSection}>
           {/* TODO: get social svgs */}
           <div className={styles.socialLink}>
@@ -33,7 +33,6 @@ export default function Footer() {
           <p>Copyright ©2023 Avenues Consulting Group.</p>
         </div>
       </div>
-      <div className={styles.rightSection}></div>
     </footer>
   );
 }

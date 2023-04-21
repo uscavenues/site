@@ -8,7 +8,6 @@
 }
 
 .whatHeader {
-  padding-left: 10rem;
 }
 
 .topRow {
@@ -25,11 +24,16 @@
 }
 
 .bottomRow > .whatBox {
-  margin: 0 3rem;
+  margin: 0 .1rem;
   border: .15rem dashed var(--avenues-pink-sec);
+  display: inline-block;
 }
 
 .whatBold {
   font-weight: 700;
   font-size: 20px;
+}
+
+.bottomRow .whatBold {
+  font-size: 16px;
 }

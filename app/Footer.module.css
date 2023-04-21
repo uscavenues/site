@@ -1,12 +1,15 @@
 .footer {
-  display: flex;
   color: var(--white);
-  justify-content: space-between;
   background-color: var(--avenues-pink);
 }
 
+.footerSection {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .socialSection {
-  padding: 3rem;
+  padding: 3rem 0;
 }
 
 .socialLink {
@@ -15,6 +18,5 @@
 
 .bottomText {
   padding-bottom: 3rem;
-  padding-left: 3rem;
   opacity: 0.6;
 }

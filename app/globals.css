@@ -45,11 +45,6 @@ body {
   background-blend-mode: overlay, normal;
 }
 
-main {
-  width: 80%;
-  margin: 0 auto;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--poppins-font);
 }
@@ -74,6 +69,20 @@ button {
 button:hover {
   background-color: var(--avenues-navy);
   cursor: pointer;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--avenues-pink);
 }
 
 @media screen and (min-width: 40rem) {

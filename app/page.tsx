@@ -1,11 +1,12 @@
+// import Script from "next/script";
 import Navbar from "./Navbar";
-import Welcome from "./Welcome";
 import Footer from "./Footer";
 import Shapes from "./Shapes";
-// import Script from "next/script";
+// import Welcome from "./Welcome";
+import Hero from "./Hero";
 import Description from "./Description";
 import WhatWeDo from "./WhatWeDo";
-import Hero from "./Hero";
+import Clients from "./Clients";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
         <Hero />
         <Description />
         <WhatWeDo />
+        <Clients />
       </main>
       <Footer />
     </>

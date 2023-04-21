@@ -1,7 +1,7 @@
 :root {
   --avenues-pink: #EB4C60;
   --avenues-pink-sec: rgba(235, 76, 96, 0.7);
-  --avenues-navy: rgba(52, 80, 117, 0.5);
+  --avenues-navy: #345075;
 
   --gray-strong: #222222;
   --gray-medium: #666666;
@@ -37,12 +37,6 @@ this media query only applies on system dark theme
 html {
   font-family: var(--raleway-font);
   font-size: var(--font-size);
-}
-
-@media screen and (min-width: 40rem) {
-  :root {
-    font-size: 18px;
-  }
 }
 
 body {
@@ -81,3 +75,15 @@ button:hover {
   background-color: var(--avenues-navy);
   cursor: pointer;
 }
+
+@media screen and (min-width: 40rem) {
+  :root {
+    --font-size: 18px;
+  }
+
+  main {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+

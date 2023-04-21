@@ -1,0 +1,13 @@
+.heroSection {
+  padding: 3rem 0;
+}
+
+.subText {
+  color: var(--avenues-pink-sec);
+  padding: .5rem 0;
+}
+
+.headingText {
+  line-height: 2.2rem;
+  width: 70%;
+}

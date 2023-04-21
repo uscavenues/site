@@ -7,9 +7,9 @@ export default function Shapes() {
       <div className={styles.shapeTop + " " + styles.shapeRight}>
         <Shape svg={"/images/shapes/Star.svg"} />
       </div>
-      {/* <div className={styles.shapeBottom + " " + styles.shapeCenter}> */}
-        {/* <Shape svg={"/images/shapes/StarDotted.svg"} /> */}
-      {/* </div> */}
+      <div className={styles.shapeMiddle}>
+        <Shape svg={"/images/shapes/StarDotted.svg"} />
+      </div>
     </div>
   );
 }

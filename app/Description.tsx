@@ -6,7 +6,10 @@ export default function Description() {
       <div className={styles.descSection}>
         <p className={styles.descText}>
           We are USC’s first-ever consulting group focusing on pre-professional
-          industries such as law, medicine, real estate, and technology.
+          industries such as <span className={styles.boxedText}>law</span>,{" "}
+          <span className={styles.boxedText}>medicine</span>,{" "}
+          <span className={styles.boxedText}>real estate</span>, and{" "}
+          <span className={styles.boxedText}>technology</span>.
         </p>
       </div>
       <div className={styles.descSection}>

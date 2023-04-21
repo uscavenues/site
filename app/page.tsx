@@ -1,21 +1,23 @@
 import Navbar from "./Navbar";
-// import Welcome from "./Welcome";
+import Welcome from "./Welcome";
 import Footer from "./Footer";
 import Shapes from "./Shapes";
 // import Script from "next/script";
 import Description from "./Description";
 import WhatWeDo from "./WhatWeDo";
-// import Hero from "./Hero";
+import Hero from "./Hero";
 
 export default function HomePage() {
   return (
     <>
+      <Shapes />
       <Navbar />
       <main>
-        <Shapes />
         {/* Instagram embed */}
         {/* <Script src="" strategy="lazyOnload" /> */}
         {/* <Image src="/images/shapes/HorLine.svg" fill={true} alt="Seperation line" /> */}
+        {/* <Welcome /> */}
+        <Hero />
         <Description />
         <WhatWeDo />
       </main>

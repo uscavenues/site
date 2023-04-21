@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  color: var(--white);
+  justify-content: space-between;
+  background-color: var(--avenues-pink);
+}
+
+.socialSection {
+  padding: 3rem;
+}
+
+.socialLink {
+  display: inline;
+}
+
+.bottomText {
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  opacity: 0.6;
+}

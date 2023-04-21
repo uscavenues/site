@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menuLinks {
+  display: flex;
+}
+
+.linkItem {
+  padding: 1rem;
+}
+
+.applyButton {
+  margin: 1rem;
+}
+
+.applyLink:hover {
+  color: inherit;
+}

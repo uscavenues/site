@@ -1,0 +1,19 @@
+.shapeTop > * {
+  top: 0;
+}
+
+.shapeBottom > * {
+  top: 70%;
+}
+
+.shapeRight > * {
+  right: 0;
+}
+
+.shapeMiddle > * {
+  top: 5rem;
+}
+
+.shapeCenter > * {
+  left: 10rem;
+}

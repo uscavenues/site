@@ -1,0 +1,35 @@
+.whatSection {
+  padding: 3rem 0;
+}
+
+.whatContent {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.whatHeader {
+  padding-left: 10rem;
+}
+
+.topRow {
+  margin: 3rem;
+}
+
+.whatBox {
+  display: inline-block;
+  box-sizing: border-box;
+
+  padding: 1rem;
+  border: .15rem solid var(--avenues-pink-sec);
+  border-radius: 2px;
+}
+
+.bottomRow > .whatBox {
+  margin: 0 3rem;
+  border: .15rem dashed var(--avenues-pink-sec);
+}
+
+.whatBold {
+  font-weight: 700;
+  font-size: 20px;
+}

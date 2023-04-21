@@ -4,10 +4,16 @@
 
 .subText {
   color: var(--avenues-pink-sec);
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .headingText {
   line-height: 2.2rem;
-  width: 70%;
+  width: 100%;
+}
+
+@media screen and (min-width: 40rem) {
+  .headingText {
+    width: 70%;
+  }
 }

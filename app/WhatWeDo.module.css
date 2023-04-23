@@ -3,5 +3,57 @@
 }
 
 .whatContent {
-  text-align: center;
+  padding: 3rem 0;
+}
+
+.cohorts {
+  padding-bottom: 3rem;
+}
+
+.cohortTitle {
+  opacity: 0.4;
+}
+
+.cohortSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cohortPart {
+  font-family: var(--cor-garamond-font);
+  font-size: 34px;
+  padding-left: 1rem;
+}
+
+.cohortNum {
+  opacity: .6;
+}
+
+.cohortPartLink {
+  text-decoration: none;
+}
+
+.cohortPartLink:hover {
+  transition: ease-in 0.25s;
+}
+
+.groupSection {
+  padding: 3rem 0;
+}
+
+.groupName {
+  background-color: var(--avenues-navy);
+  color: var(--white);
+  padding: 0 .2rem;
+}
+
+@media screen and (min-width: 40rem) {
+  .cohortPart {
+    font-size: 58px;
+  }
+
+  .cohortTitle {
+  font-size: 24px;
+  }
 }

@@ -5,19 +5,18 @@ export default function Description() {
     <div className={styles.desc}>
       <div className={styles.descSection}>
         <p className={styles.descText}>
-          We are USC’s first-ever consulting group focusing on pre-professional
-          industries such as <span className={styles.boxedText}>law</span>,{" "}
-          <span className={styles.boxedText}>medicine</span>,{" "}
-          <span className={styles.boxedText}>real estate</span>, and{" "}
-          <span className={styles.boxedText}>technology</span>.
+          Avenues is a new consulting group at USC that is dedicated to
+          promoting inclusivity and reaching different industries. With a team
+          of diverse consultants from a variety of backgrounds, Avenues is
+          uniquely positioned to offer customized solutions that cater to the
+          specific needs of each client.
         </p>
       </div>
       <div className={styles.descSection}>
         <p className={styles.descText}>
-          Bridges between the business and pre-professional worlds Increased
-          visibility for non-business majors looking to break into the
-          consulting industry Project-based opportunities focusing on creating
-          necessary solutions for big problems
+          Our innovative approach and commitment to collaboration ensures that
+          every project is approached with an open mind and a willingness to
+          learn from different perspectives.
         </p>
       </div>
     </div>

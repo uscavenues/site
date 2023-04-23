@@ -4,36 +4,4 @@
 
 .whatContent {
   text-align: center;
-  margin: 0 auto;
-}
-
-.whatHeader {
-}
-
-.topRow {
-  margin: 3rem;
-}
-
-.whatBox {
-  display: inline-block;
-  box-sizing: border-box;
-
-  padding: 1rem;
-  border: .15rem solid var(--avenues-pink-sec);
-  border-radius: 2px;
-}
-
-.bottomRow > .whatBox {
-  margin: 0 .1rem;
-  border: .15rem dashed var(--avenues-pink-sec);
-  display: inline-block;
-}
-
-.whatBold {
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.bottomRow .whatBold {
-  font-size: 16px;
 }

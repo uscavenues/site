@@ -95,6 +95,7 @@ button:hover {
 .not-found {
   height: 100vh;
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;

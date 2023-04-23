@@ -15,10 +15,10 @@ export default function Navbar() {
       </div>
       <div className={styles.menuLinks}>
         <div className={styles.linkItem}>
-          <Link href="/about">About</Link>
+          <Link className={styles.link} href="/about">About</Link>
         </div>
         <div className={styles.linkItem}>
-          <Link href="/our-team">Our team</Link>
+          <Link className={styles.link} href="/our-team">Our team</Link>
         </div>
       </div>
       <div className={styles.applySection}>

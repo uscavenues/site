@@ -16,6 +16,10 @@
   margin: 1rem;
 }
 
+.applyLink, .link {
+  text-decoration: none;
+}
+
 .applyLink:hover {
   color: inherit;
 }

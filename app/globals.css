@@ -59,6 +59,7 @@ main {
   margin: 0 auto;
 }
 
+
 h1,
 h2,
 h3,
@@ -70,7 +71,6 @@ h6 {
 
 a {
   color: inherit;
-  text-decoration: none;
 }
 
 a:hover {
@@ -88,6 +88,22 @@ button {
 button:hover {
   background-color: var(--avenues-navy);
   cursor: pointer;
+}
+
+.not-found {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-title {
+  font-size: 58px;
+}
+
+.not-found-error {
+  color: var(--avenues-pink);
 }
 
 @media screen and (min-width: 40rem) {

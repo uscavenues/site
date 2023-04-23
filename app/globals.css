@@ -40,6 +40,7 @@ html {
 }
 
 /* bro you have no clue how long I spent just trying to figure out how this background shit worked */
+/*
 body::before {
   content: "";
   position: absolute;
@@ -53,6 +54,7 @@ body::before {
   opacity: 0.15;
   pointer-events: none;
 }
+*/
 
 main {
   width: 80%;

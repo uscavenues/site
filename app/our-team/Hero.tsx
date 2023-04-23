@@ -5,23 +5,21 @@ import girlsTeam from "../../public/images/team/girlsteam.jpg";
 
 export default function Hero() {
   return (
-    <div className={styles.heroSection}>
-      <h1 className={styles.heroTitle}>Our Team</h1>
-      <div className={styles.heroImages}>
+    <div className={styles.hero}>
+      <div className={styles.heroContent}>
         <Image
-          className={styles.heroImg + " " + styles.leftImg}
+          className={styles.heroImg + " " + styles.top}
           src={fullTeam}
-          width={300}
-          height={450}
           alt="Full Team Photos"
         />
         <Image
-          className={styles.heroImg + " " + styles.rightImg}
+          className={styles.heroImg + " " + styles.bottom}
           src={girlsTeam}
-          width={300}
-          height={450}
           alt="Girls Team Photos"
         />
+      <div className={styles.heroSection}>
+        <h1 className={styles.heroTitle}>Our Team</h1>
+      </div>
       </div>
     </div>
   );

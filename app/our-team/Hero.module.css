@@ -1,22 +1,45 @@
-.heroSection {
-  height: 30rem;
-  text-align: center;
-}
-
-.heroTitle {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.heroImg {
+.heroContent {
   position: relative;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
   z-index: -1;
 }
 
-.leftImg {
-  bottom: 2rem;
+.heroImg {
+  width: 200px;
+  height: 300px;
 }
 
-.rightImg {
-  top: 2rem;
+.top {
+  grid-column: 1 / span 8;
+  grid-row: 1 / span 8;
+  z-index: 1;
+}
+
+.bottom {
+  grid-column: 4 / -1;
+  grid-row: 4 / -1;
+}
+
+.heroSection {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.heroTitle {
+  font-size: 58px;
+  color: var(--white);
+}
+
+@media screen and (min-width: 40rem) {
+  .heroImg {
+    width: 400px;
+    height: 600px;
+  }
 }

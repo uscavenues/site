@@ -1,0 +1,21 @@
+.clientForm {
+  padding: 3rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.inputSection {
+  padding: 0.5rem 0;
+}
+
+.inputBox {
+  display: block;
+  width: 100%;
+  margin: 0.1rem 0;
+}
+
+@media screen and (min-width: 40rem) {
+  .clientForm {
+    width: 75%;
+  }
+}

@@ -1,0 +1,10 @@
+.hero {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 40rem) {
+  .hero {
+    width: 75%;
+  }
+}

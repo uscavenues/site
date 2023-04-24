@@ -29,11 +29,9 @@ export default function Navbar() {
         </div>
       </div>
       <div className={styles.applySection}>
-        <button className={styles.applyButton}>
-          <Link className={styles.applyLink} href="/apply">
-            Apply
-          </Link>
-        </button>
+        <Link className={styles.applyLink} href="/apply">
+          <button className={styles.applyButton}>Apply</button>
+        </Link>
       </div>
     </nav>
   );

@@ -29,28 +29,29 @@ const membersList = [
   {
     id: 2,
     name: "Mykaela Mae Ebalo",
-    role: "Director of Pre-Professional",
+    role: "Director of Professional Development General",
     img: mykaelaImg,
   },
   {
     id: 3,
+    name: "Jennifer Liu",
+    role: "Director of Professional Development General",
+    img: jennImg,
+  },
+
+  {
+    id: 4,
     name: "Jack Murphy",
-    role: "Director of Pre-Professional",
+    role: "Director of Professional Development Pre-Law",
     img: jackImg,
   },
   {
-    id: 4,
+    id: 5,
     name: "Josh Kim",
-    role: "Director of Pre-Professional",
+    role: "Director of Professional Development Pre-Health",
     img: joshImg,
   },
-  {
-    id: 5,
-    name: "Jennifer Liu",
-    role: "Director of Pre-Professional",
-    img: jennImg,
-  },
-  {
+    {
     id: 6,
     name: "Akash Khanna",
     role: "Director of Recruitment",
@@ -65,7 +66,7 @@ const membersList = [
   {
     id: 8,
     name: "Gabriel Sianipar",
-    role: "Director of ",
+    role: "Director of Marketing(?)",
     img: gabeImg,
   },
   {

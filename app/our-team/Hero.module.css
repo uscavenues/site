@@ -1,3 +1,6 @@
+.hero {
+  padding: 3rem;
+}
 .heroContent {
   position: relative;
   display: grid;

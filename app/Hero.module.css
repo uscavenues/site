@@ -12,8 +12,23 @@
   width: 100%;
 }
 
+.descText {
+  font-size: 20px;
+  padding: 1rem 0;
+}
+
+.boxedText {
+  background-color: var(--avenues-navy);
+  color: var(--white);
+  padding: 0 .2rem;
+}
+
 @media screen and (min-width: 40rem) {
   .headingText {
     width: 70%;
+  }
+
+  .descText {
+    font-size: 24px;
   }
 }

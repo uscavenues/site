@@ -1,15 +1,15 @@
 :root {
-  --avenues-pink: #EB4C60;
+  --avenues-pink: #eb4c60;
   --avenues-pink-sec: rgba(235, 76, 96, 0.7);
   --avenues-navy: #345075;
 
   --gray-strong: #222222;
   --gray-medium: #666666;
-  --gray-light: #AAAAAA;
+  --gray-light: #aaaaaa;
 
-  --white: #FFFFEE;
+  --white: #ffffee;
 
-  --font-size: 16px;
+  --font-size: 18px;
 }
 
 /*
@@ -39,19 +39,39 @@ html {
   font-size: var(--font-size);
 }
 
-body {
-  position: relative;
-  background: url("/images/bg-blend.png"), #FFFFFF;
-  background-blend-mode: overlay, normal;
+/* bro you have no clue how long I spent just trying to figure out how this background shit worked */
+/*
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/bg-blend.png"), url("/images/paper-tex.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+  opacity: 0.15;
+  pointer-events: none;
+}
+*/
+
+main {
+  width: 80%;
+  margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--poppins-font);
 }
 
 a {
   color: inherit;
-  text-decoration: none;
 }
 
 a:hover {
@@ -61,7 +81,7 @@ a:hover {
 button {
   color: var(--white);
   background-color: var(--avenues-pink);
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border: var(--gray-light);
   border-radius: 1rem;
 }
@@ -85,9 +105,26 @@ input:focus, textarea:focus {
   border-color: var(--avenues-pink);
 }
 
+.not-found {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-title {
+  font-size: 58px;
+}
+
+.not-found-error {
+  color: var(--avenues-pink);
+}
+
 @media screen and (min-width: 40rem) {
   :root {
-    --font-size: 18px;
+    --font-size: 20px;
   }
 
   main {
@@ -95,4 +132,3 @@ input:focus, textarea:focus {
     margin: 0 auto;
   }
 }
-

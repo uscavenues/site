@@ -1,0 +1,66 @@
+.teamList {
+  padding: 3rem 0;
+}
+
+.teamMems {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  grid-gap: 1rem;
+}
+
+.memberImg {
+  border: var(--gray-light);
+  border-radius: 1rem;
+  width: 124px;
+  height: 124px;
+}
+
+.memberInfo {
+  width: 124px;
+}
+
+.memberName {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 22rem) {
+  .teamMems {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  .teamMems {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 55rem) {
+  .memberImg {
+    width: 174px;
+    height: 174px;
+  }
+
+  .memberInfo {
+    width: 174px;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .memberImg {
+    width: 224px;
+    height: 224px;
+  }
+
+  .memberInfo {
+    width: 224px;
+  }
+}
+
+@media screen and (min-width: 86rem) {
+  .teamMems {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

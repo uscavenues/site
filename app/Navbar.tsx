@@ -14,9 +14,9 @@ export default function Navbar() {
         />
       </div>
       <div className={styles.menuLinks}>
-        <div className={styles.linkItem}>
-          <Link className={styles.link} href="/about">About</Link>
-        </div>
+        {/* <div className={styles.linkItem}> */}
+          {/* <Link className={styles.link} href="/about">About</Link> */}
+        {/* </div> */}
         <div className={styles.linkItem}>
           <Link className={styles.link} href="/our-team">Our team</Link>
         </div>

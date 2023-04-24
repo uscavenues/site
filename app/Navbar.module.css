@@ -9,7 +9,8 @@
 }
 
 .linkItem {
-  padding: 1rem;
+  padding: .5rem;
+  text-align: center;
 }
 
 .applyButton {
@@ -27,5 +28,9 @@
 @media screen and (min-width: 40rem) {
   .navbar {
     margin: 0 auto;
+  }
+
+  .linkItem {
+    padding: 1rem;
   }
 }

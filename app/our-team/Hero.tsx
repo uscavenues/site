@@ -17,9 +17,9 @@ export default function Hero() {
           src={girlsTeam}
           alt="Girls Team Photos"
         />
-      <div className={styles.heroSection}>
-        <h1 className={styles.heroTitle}>Our Team</h1>
-      </div>
+        <div className={styles.heroSection}>
+          <h1 className={styles.heroTitle}>Our Team</h1>
+        </div>
       </div>
     </div>
   );

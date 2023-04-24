@@ -12,12 +12,14 @@
   padding: 1rem 0;
 }
 
-.welcomeImgPiece, .welcomeTextPiece {
+.welcomeImgPiece,
+.welcomeTextPiece {
   display: inline;
   padding: 1rem;
 }
 
-.welcomeImgPiece > *, .welcomeTextPiece > * {
+.welcomeImgPiece > *,
+.welcomeTextPiece > * {
   vertical-align: middle;
 }
 

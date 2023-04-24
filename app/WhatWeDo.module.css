@@ -27,7 +27,7 @@
 }
 
 .cohortNum {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .cohortPartLink {
@@ -45,7 +45,7 @@
 .groupName {
   background-color: var(--avenues-navy);
   color: var(--white);
-  padding: 0 .2rem;
+  padding: 0 0.2rem;
 }
 
 @media screen and (min-width: 40rem) {
@@ -54,6 +54,6 @@
   }
 
   .cohortTitle {
-  font-size: 24px;
+    font-size: 24px;
   }
 }

@@ -20,7 +20,6 @@ export default function Hero() {
           <span className={styles.boxedText}>real estate</span>, and{" "}
           <span className={styles.boxedText}>technology</span>.
         </p>
-
       </div>
     </div>
   );

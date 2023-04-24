@@ -1,4 +1,3 @@
-import styles from "./page.module.css";
 import Navbar from "@/app/Navbar";
 import Footer from "@/app/Footer";
 import Hero from "./Hero";

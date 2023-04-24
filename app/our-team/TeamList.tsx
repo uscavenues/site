@@ -51,7 +51,7 @@ const membersList = [
     role: "Director of Professional Development Pre-Health",
     img: joshImg,
   },
-    {
+  {
     id: 6,
     name: "Akash Khanna",
     role: "Director of Recruitment",

@@ -9,7 +9,7 @@
 }
 
 .linkItem {
-  padding: .5rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
@@ -17,7 +17,8 @@
   margin: 1rem;
 }
 
-.applyLink, .link {
+.applyLink,
+.link {
   text-decoration: none;
 }
 

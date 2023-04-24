@@ -15,18 +15,24 @@ export default function Navbar() {
       </div>
       <div className={styles.menuLinks}>
         {/* <div className={styles.linkItem}> */}
-          {/* <Link className={styles.link} href="/about">About</Link> */}
+        {/* <Link className={styles.link} href="/about">About</Link> */}
         {/* </div> */}
         <div className={styles.linkItem}>
-          <Link className={styles.link} href="/our-team">Our team</Link>
+          <Link className={styles.link} href="/our-team">
+            Our team
+          </Link>
         </div>
         <div className={styles.linkItem}>
-          <Link className={styles.link} href="/client-interest-form">Client Interest Form</Link>
+          <Link className={styles.link} href="/client-interest-form">
+            Client Interest Form
+          </Link>
         </div>
       </div>
       <div className={styles.applySection}>
         <button className={styles.applyButton}>
-          <Link className={styles.applyLink} href="/apply">Apply</Link>
+          <Link className={styles.applyLink} href="/apply">
+            Apply
+          </Link>
         </button>
       </div>
     </nav>

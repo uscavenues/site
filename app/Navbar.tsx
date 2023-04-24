@@ -21,7 +21,7 @@ export default function Navbar() {
           <Link className={styles.link} href="/our-team">Our team</Link>
         </div>
         <div className={styles.linkItem}>
-          <Link href="/client-interest-form">Client Interest Form</Link>
+          <Link className={styles.link} href="/client-interest-form">Client Interest Form</Link>
         </div>
       </div>
       <div className={styles.applySection}>

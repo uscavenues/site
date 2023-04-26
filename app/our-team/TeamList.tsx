@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./TeamList.module.css";
 import debraImg from "../../public/images/team/members/debra.jpg";
@@ -12,6 +14,7 @@ import gabeImg from "../../public/images/team/members/gabe.jpg";
 import annaImg from "../../public/images/team/members/anna.jpg";
 import timImg from "../../public/images/team/members/tim.jpg";
 import christianImg from "../../public/images/team/members/christian.jpg";
+import { useEffect } from "react";
 
 const membersList = [
   {
@@ -116,6 +119,10 @@ const membersList = [
 ];
 
 export default function TeamList() {
+  useEffect(() => {
+    console.log("Team list loaded");
+  }, []);
+
   const members = membersList.map((member) => {
     return (
       <div key={member.id} className={styles.member}>

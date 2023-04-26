@@ -23,7 +23,11 @@
   padding: 0 0.2rem;
 }
 
-@media screen and (min-width: 40rem) {
+@media screen and (min-width: 60rem) {
+  .heroSection {
+    width: 70%;
+    margin: 0 auto;
+  }
   .headingText {
     width: 70%;
   }

@@ -69,7 +69,7 @@ const membersList = [
     role: "Director of Affairs",
     img: gabeImg,
   },
-    {
+  {
     id: 10,
     name: "Timothy Tso",
     role: "Director of Technology",

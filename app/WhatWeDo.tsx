@@ -15,7 +15,6 @@ export default function WhatWeDo() {
                   Consulting
                 </Link>
               </h1>
-              <p className={styles.cohortNum}>20 Members</p>
             </div>
             <div className={styles.cohortSection}>
               <h1 className={styles.cohortPart}>
@@ -26,7 +25,6 @@ export default function WhatWeDo() {
                   Project Building
                 </Link>
               </h1>
-              <p className={styles.cohortNum}>20 Members</p>
             </div>
           </div>
         </div>

@@ -13,6 +13,12 @@
   z-index: 1;
 }
 
+.socialImg:hover {
+  opacity: 0.6;
+  transition: ease-in 0.25s;
+}
+
+
 .img1 {
   width: 224px;
   height: 169px;
@@ -28,9 +34,9 @@
 }
 
 .img3 {
-  width: 150px;
-  height: 200px;
-  grid-column: 2 / span 6;
+  width: 195px;
+  height: 260px;
+  grid-column: 3 / span 5;
   grid-row: 3 / -1;
 }
 

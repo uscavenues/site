@@ -13,22 +13,22 @@ export default function Community() {
         <Image
           className={styles.socialImg + " " + styles.img1}
           src={socialImg1}
-          alt="Full Team Photos"
+          alt="Social Photo 1"
         />
         <Image
           className={styles.socialImg + " " + styles.img2}
           src={socialImg2}
-          alt="Girls Team Photos"
+          alt="Social Photo 2"
         />
         <Image
           className={styles.socialImg + " " + styles.img3}
           src={socialImg3}
-          alt="Full Team Photos"
+          alt="Social Photo 3"
         />
         <Image
           className={styles.socialImg + " " + styles.img4}
           src={socialImg4}
-          alt="Girls Team Photos"
+          alt="Social Photo 4"
         />
       </div>
     </div>

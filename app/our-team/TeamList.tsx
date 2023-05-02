@@ -66,16 +66,10 @@ const membersList = [
   {
     id: 8,
     name: "Gabriel Sianipar",
-    role: "Director of Marketing(?)",
+    role: "Director of Affairs",
     img: gabeImg,
   },
-  {
-    id: 9,
-    name: "Anna Katherine Zhao",
-    role: "Director of Design",
-    img: annaImg,
-  },
-  {
+    {
     id: 10,
     name: "Timothy Tso",
     role: "Director of Technology",

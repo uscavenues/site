@@ -6,7 +6,7 @@ import Shapes from "./Shapes";
 import Description from "./Description";
 import WhatWeDo from "./WhatWeDo";
 import Hero from "./Hero";
-import Clients from "./Clients";
+import FAQ from "./FAQ";
 
 export default function HomePage() {
   return (
@@ -21,7 +21,7 @@ export default function HomePage() {
         <Hero />
         <Description />
         <WhatWeDo />
-        <Clients />
+        <FAQ />
       </main>
       <Footer />
     </>

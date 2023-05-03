@@ -69,18 +69,19 @@ const membersList = [
     role: "Director of Affairs",
     img: gabeImg,
   },
+    {
+    id: 9,
+    name: "Christian Yen",
+    role: "Director of Affairs",
+    img: christianImg,
+  },
   {
     id: 10,
     name: "Timothy Tso",
     role: "Director of Technology",
     img: timImg,
   },
-  {
-    id: 11,
-    name: "Christian Yen",
-    role: "Director of Affairs",
-    img: christianImg,
-  },
+
   /*
   {
     id: 13,

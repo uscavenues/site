@@ -3,13 +3,38 @@
   background-color: var(--avenues-pink-sec);
 }
 
-.timelineContent {
+.timelineSec {
   width: 80%;
   margin: 0 auto;
 }
 
+.timelineContent {
+  padding: 1rem 0;
+}
+
+.timelineEvent {
+  padding: 1rem 0;
+}
+
+.cohortEvent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eventTitle {
+  color: var(--avenues-navy);
+  font-size: 26px;
+  font-family: var(--cor-garamond-font);
+  line-height: 1.5rem;
+}
+
 @media screen and (min-width: 40rem) {
-  .timelineContent {
+  .timelineSec {
     width: 70%;
+  }
+
+  .eventTitle {
+    font-size: 74px;
   }
 }

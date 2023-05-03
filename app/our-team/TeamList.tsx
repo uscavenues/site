@@ -66,14 +66,14 @@ const membersList = [
   {
     id: 8,
     name: "Gabriel Sianipar",
-    role: "Director of Marketing(?)",
+    role: "Director of Affairs",
     img: gabeImg,
   },
-  {
+    {
     id: 9,
-    name: "Anna Katherine Zhao",
-    role: "Director of Design",
-    img: annaImg,
+    name: "Christian Yen",
+    role: "Director of Affairs",
+    img: christianImg,
   },
   {
     id: 10,
@@ -81,12 +81,7 @@ const membersList = [
     role: "Director of Technology",
     img: timImg,
   },
-  {
-    id: 11,
-    name: "Christian Yen",
-    role: "Director of Affairs",
-    img: christianImg,
-  },
+
   /*
   {
     id: 13,

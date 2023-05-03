@@ -8,8 +8,8 @@ export default function Hero() {
       </div>
       <div className={styles.heading}>
         <h1 className={styles.headingText}>
-          USC&apos;s first-ever Consulting Group focused on Pre-Professional
-          industries
+          USC&apos;s First-Ever Consulting Group Focused on Pre-Professional
+          Industries
         </h1>
       </div>
       <div className={styles.desc}>

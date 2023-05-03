@@ -6,6 +6,7 @@ import Shapes from "./Shapes";
 import Description from "./Description";
 import WhatWeDo from "./WhatWeDo";
 import Hero from "./Hero";
+import Timeline from "./Timeline";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
         <Description />
         <WhatWeDo />
       </main>
+      <Timeline />
       <Footer />
     </>
   );

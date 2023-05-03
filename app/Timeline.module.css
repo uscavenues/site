@@ -1,0 +1,15 @@
+.timeline {
+  padding: 3rem 0;
+  background-color: var(--avenues-pink-sec);
+}
+
+.timelineContent {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 40rem) {
+  .timelineContent {
+    width: 70%;
+  }
+}

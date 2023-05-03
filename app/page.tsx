@@ -6,6 +6,7 @@ import Shapes from "./Shapes";
 import Description from "./Description";
 import WhatWeDo from "./WhatWeDo";
 import Hero from "./Hero";
+import Timeline from "./Timeline";
 import Community from "./Community";
 
 export default function HomePage() {
@@ -23,6 +24,7 @@ export default function HomePage() {
         <WhatWeDo />
         <Community />
       </main>
+      <Timeline />
       <Footer />
     </>
   );

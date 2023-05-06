@@ -15,8 +15,8 @@ const cormorant_garamond = Cormorant_Garamond({
 
 export const metadata = {
   title: "USC Avenues Consulting Group",
-  // TODO: replace with official description
-  description: "blah",
+  description:
+    "USC's First-Ever Consulting Group Focused on Pre-Professional Industries",
 };
 
 export default function RootLayout({

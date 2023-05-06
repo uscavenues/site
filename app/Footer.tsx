@@ -7,7 +7,6 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerSection}>
         <div className={styles.socialSection}>
-          {/* TODO: get social svgs */}
           <div className={styles.socialLink}>
             <Link href="https://instagram.com/uscavenues/">
               <Image

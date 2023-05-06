@@ -68,7 +68,7 @@ const membersList = [
     role: "Director of Affairs",
     img: gabeImg,
   },
-    {
+  {
     id: 9,
     name: "Christian Yen",
     role: "Director of Affairs",

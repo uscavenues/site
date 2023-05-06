@@ -1,11 +1,11 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Shapes from "./Shapes";
-import Description from "./Description";
-import WhatWeDo from "./WhatWeDo";
-import Hero from "./Hero";
-import Timeline from "./Timeline";
-import Community from "./Community";
+import Navbar from "@/app/Navbar";
+import Footer from "@/app/Footer";
+import Shapes from "@/app/Shapes";
+import Description from "@/app/Description";
+import WhatWeDo from "@/app/WhatWeDo";
+import Hero from "@/app/Hero";
+import Timeline from "@/app/Timeline";
+import Community from "@/app/Community";
 
 export default function HomePage() {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../../styles/TeamList.module.css";
+import styles from "../../styles/our-team/TeamList.module.css";
 import debraImg from "../../public/images/team/members/debra.jpg";
 import delaneImg from "../../public/images/team/members/delane.jpg";
 import mykaelaImg from "../../public/images/team/members/mykaela.jpg";

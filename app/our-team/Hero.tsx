@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../../styles/Hero.module.css";
+import styles from "../../styles/our-team/Hero.module.css";
 import fullTeam from "../../public/images/team/fullteam.jpg";
 import girlsTeam from "../../public/images/team/girlsteam.jpg";
 

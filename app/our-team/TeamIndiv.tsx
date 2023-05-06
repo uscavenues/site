@@ -1,4 +1,4 @@
-import styles from "../../styles/TeamIndiv.module.css";
+import styles from "../../styles/our-team/TeamIndiv.module.css";
 
 export default function TeamIndiv() {
   return (

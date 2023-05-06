@@ -1,5 +1,5 @@
 import { Poppins, Raleway, Cormorant_Garamond } from "next/font/google";
-import "./globals.css";
+import "../styles/globals.css";
 
 const raleway = Raleway({ subsets: ["latin"], variable: "--raleway-font" });
 const poppins = Poppins({

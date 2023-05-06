@@ -1,5 +1,5 @@
 import Shape from "./Shape";
-import styles from "./Shapes.module.css";
+import styles from "../styles/Shapes.module.css";
 
 export default function Shapes() {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./Welcome.module.css";
+import styles from "../styles/Welcome.module.css";
 import preHealth from "../public/images/content/pre-health.jpg";
 import preLaw from "../public/images/content/pre-law.jpg";
 import tech from "../public/images/content/tech.jpg";

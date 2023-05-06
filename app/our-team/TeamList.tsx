@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./TeamList.module.css";
+import styles from "../../styles/TeamList.module.css";
 import debraImg from "../../public/images/team/members/debra.jpg";
 import delaneImg from "../../public/images/team/members/delane.jpg";
 import mykaelaImg from "../../public/images/team/members/mykaela.jpg";
@@ -9,7 +9,6 @@ import jennImg from "../../public/images/team/members/jenn.jpg";
 import akashImg from "../../public/images/team/members/akash.jpg";
 import avinashImg from "../../public/images/team/members/avinash.jpg";
 import gabeImg from "../../public/images/team/members/gabe.jpg";
-import annaImg from "../../public/images/team/members/anna.jpg";
 import timImg from "../../public/images/team/members/tim.jpg";
 import christianImg from "../../public/images/team/members/christian.jpg";
 

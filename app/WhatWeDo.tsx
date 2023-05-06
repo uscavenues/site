@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./WhatWeDo.module.css";
+import styles from "../styles/WhatWeDo.module.css";
 
 export default function WhatWeDo() {
   return (

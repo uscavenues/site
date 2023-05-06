@@ -1,8 +1,6 @@
 import Navbar from "./Navbar";
-import Welcome from "./Welcome";
 import Footer from "./Footer";
 import Shapes from "./Shapes";
-// import Script from "next/script";
 import Description from "./Description";
 import WhatWeDo from "./WhatWeDo";
 import Hero from "./Hero";

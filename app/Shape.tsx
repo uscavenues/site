@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./Shape.module.css";
+import styles from "../styles/Shape.module.css";
 
 export default function Shape({ svg }: { svg: string }) {
   return (

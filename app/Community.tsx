@@ -1,6 +1,5 @@
-import styles from "./Community.module.css";
+import styles from "../styles/Community.module.css";
 import Image from "next/image";
-import Shape from "./Shape";
 import socialImg1 from "../public/images/community/social1.jpg";
 import socialImg2 from "../public/images/community/social2.jpg";
 import socialImg3 from "../public/images/community/social3.jpg";

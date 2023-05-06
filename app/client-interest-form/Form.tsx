@@ -1,4 +1,4 @@
-import styles from "./Form.module.css";
+import styles from "../styles/client-interest-form/Form.module.css";
 
 export default function Form() {
   return (

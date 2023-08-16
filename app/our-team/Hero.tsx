@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../styles/our-team/Hero.module.css";
-import fullTeam from "../../public/images/team/fullteam.jpg";
-import girlsTeam from "../../public/images/team/girlsteam.jpg";
+import fullTeam from "../../public/images/team/teamhandsign.jpg";
+import girlsTeam from "../../public/images/team/teamgirls.jpg";
 
 export default function Hero() {
   return (

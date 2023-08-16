@@ -1,37 +1,72 @@
+.navbarWrapper {
+  background: linear-gradient(var(--gray-light), white, white, white);
+}
+
 .navbar {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2.4rem 0;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
-.menuLinks {
-  display: flex;
+.logoSec {
+  display: block;
+  align-self: center;
 }
 
-.linkItem {
-  padding: 0.5rem;
-  text-align: center;
+.logoImg {
+  width: 3.5rem;
+  height: auto;
 }
 
-.applyButton {
-  margin: 1rem;
+.navLinksSec {
+  position: relative;
+  width: 3rem;
+  cursor: pointer;
 }
 
-.applyLink,
-.link {
-  text-decoration: none;
+.line:nth-child(1) {
+  top: calc(50% - 7px);
 }
 
-.applyLink:hover {
-  color: inherit;
+.line:nth-child(2) {
+  top: calc(50% - 1px);
 }
 
-@media screen and (min-width: 40rem) {
-  .navbar {
-    margin: 0 auto;
+.line:nth-child(3) {
+  top: calc(50% + 5px);
+}
+
+.line {
+  height: 1px;
+  background-color: var(--avenues-dark);
+  position: absolute;
+  display: block;
+  width: 18px;
+  left: calc(50% - 9px);
+}
+
+@media screen and (min-width: 55rem) {
+  .navLinksSec {
+    width: auto;
+    position: inherit;
+    cursor: auto;
   }
 
-  .linkItem {
-    padding: 1rem;
+  .navLink {
+    margin-left: 1rem;
+    text-decoration: none;
+    transition: opacity 0.1s ease-in;
+  }
+
+  .navLink:hover {
+    opacity: 0.6;
+  }
+}
+
+@media screen and (min-width: 86rem) {
+  .navbar {
+    width: 96%;
   }
 }

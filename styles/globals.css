@@ -1,15 +1,12 @@
 :root {
-  --avenues-pink: #eb4c60;
-  --avenues-pink-sec: rgba(235, 76, 96, 0.7);
-  --avenues-navy: #345075;
-
-  --gray-strong: #222222;
-  --gray-medium: #666666;
-  --gray-light: #aaaaaa;
-
-  --white: #ffffee;
-
-  --font-size: 18px;
+  --avenues-theme: #c193c5;
+  --avenues-sec: #7bc6cc;
+  --avenues-sec-bg: #244042;
+  --avenues-dark: #083134;
+  --dark-bg-col: #b2c4d5;
+  --gray-lightest: #f2f2f2;
+  --gray-light: #a2a2a2;
+  --gray-dark: #4d4d4d;
 }
 
 /*
@@ -28,67 +25,12 @@ this media query only applies on system dark theme
 }
 */
 
+/* global resets */
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-html {
-  font-family: var(--raleway-font);
-  font-size: var(--font-size);
-}
-
-/* bro you have no clue how long I spent just trying to figure out how this background shit worked */
-/*
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("/images/bg-blend.png"), url("/images/paper-tex.png");
-  background-blend-mode: overlay;
-  background-size: cover;
-  opacity: 0.15;
-  pointer-events: none;
-}
-*/
-
-main {
-  width: 80%;
-  margin: 0 auto;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--poppins-font);
-}
-
-a {
-  color: inherit;
-}
-
-a:hover {
-  color: var(--avenues-pink);
-}
-
-button {
-  color: var(--white);
-  background-color: var(--avenues-pink);
-  padding: 0.5rem 1rem;
-  border: var(--gray-light);
-  border-radius: 1rem;
-}
-
-button:hover {
-  background-color: var(--avenues-navy);
-  cursor: pointer;
 }
 
 button,
@@ -103,33 +45,96 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border-color: var(--avenues-pink);
 }
 
-.not-found {
-  height: 100vh;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/* general */
+
+html {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  font-family: var(--sora-font);
 }
 
-.not-found-title {
-  font-size: 58px;
+p {
+  padding-bottom: 1rem;
 }
 
-.not-found-error {
-  color: var(--avenues-pink);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+  padding-bottom: 1.4rem;
+  font-weight: 500;
+  color: var(--avenues-dark);
 }
 
-@media screen and (min-width: 40rem) {
-  :root {
-    --font-size: 20px;
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+  background-color: var(--avenues-dark);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1.2rem;
+  transition: background-color 0.1s ease-in;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--avenues-sec);
+}
+
+@media screen and (min-width: 65rem) {
+  html {
+    font-size: 18px;
   }
+}
 
-  main {
-    width: 70%;
-    margin: 0 auto;
-  }
+/* cards */
+
+.card {
+  background-color: var(--gray-lightest);
+  box-shadow: 0px 18px 36px -18px rgba(0, 0, 0, 0.1),
+    0px 30px 45px -30px rgba(25, 12, 12, 0.1);
+}
+
+.cardContent {
+  padding: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
 }

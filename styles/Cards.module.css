@@ -1,0 +1,25 @@
+.cardsSec {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem 0;
+  display: flex;
+}
+
+.card {
+  width: 40rem;
+  margin: 0 1rem;
+}
+
+.card:nth-child(even) {
+  margin-top: 3rem;
+}
+
+.card:nth-child(odd) {
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 86rem) {
+  .cardsSec {
+    width: 95%;
+  }
+}

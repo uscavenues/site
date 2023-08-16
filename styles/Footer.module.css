@@ -1,6 +1,6 @@
 .footer {
-  color: var(--white);
-  background-color: var(--avenues-pink);
+  color: var(--dark-bg-col);
+  background-color: var(--avenues-sec-bg);
 }
 
 .footerSection {
@@ -20,3 +20,10 @@
   padding-bottom: 3rem;
   opacity: 0.6;
 }
+@media screen and (min-width: 86rem) {
+  .footerSection {
+    width: 55%;
+  }
+}
+
+

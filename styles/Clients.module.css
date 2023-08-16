@@ -1,0 +1,35 @@
+.clientsWrapper {
+  margin-bottom: 3rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.caption {
+  text-align: center;
+  font-size: 1.3rem;
+  opacity: 0.6;
+}
+
+.clientsSec {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.clientImg {
+  height: auto;
+  max-width: 30%;
+}
+
+.doordash {
+  align-self: center;
+}
+
+@media screen and (min-width: 86rem) {
+  .clientsSec {
+    width: 55%;
+  }
+}

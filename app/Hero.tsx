@@ -1,25 +1,39 @@
+import Image from "next/image";
 import styles from "../styles/Hero.module.css";
+import gradient from "../public/images/gradients/desk/4.png";
+import img from "../public/images/content/consulting2.jpg";
+import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className={styles.heroSection}>
-      <div className={styles.subHeading}>
-        <h3 className={styles.subText}>USC Avenues Consulting Group</h3>
-      </div>
-      <div className={styles.heading}>
-        <h1 className={styles.headingText}>
-          USC&apos;s First-Ever Consulting Group Focused on Pre-Professional
-          Industries
+    <div className={styles.hero}>
+      <div className={styles.tagline}>
+        <h1 className={styles.taglineHeader}>
+          USC&apos;s first-ever consulting group to focus on the
+          pre-professional industries
         </h1>
-      </div>
-      <div className={styles.desc}>
-        <p className={styles.descText}>
-          We are USC’s first-ever consulting group focusing on pre-professional
-          industries such as <span className={styles.boxedText}>law</span>,{" "}
-          <span className={styles.boxedText}>medicine</span>,{" "}
-          <span className={styles.boxedText}>real estate</span>, and{" "}
-          <span className={styles.boxedText}>technology</span>.
+        <p className={styles.taglineText}>
+          Avenues is where students from a diverse set of majors such as
+          pre-law, pre-health, real estate, and technology come together to work
+          on projects with each other and with companies.
         </p>
+        {/* TODO: fill out link */}
+        <Link href="/apply" className={styles.link}>
+          <button className={styles.applyBut}>Apply now</button>
+        </Link>
+        <Link href="/aboutus" className={styles.link}>
+          <button className={styles.applyBut + " " + styles.noBut}>
+            Learn more
+          </button>
+        </Link>
+      </div>
+      <div className={styles.imgSec}>
+        <Image
+          src={gradient}
+          className={styles.gradImg}
+          alt="Gradient Decoration Image"
+        />
+        <Image src={img} className={styles.mainImg} alt="Main Title Image" />
       </div>
     </div>
   );

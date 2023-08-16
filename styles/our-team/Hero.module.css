@@ -37,8 +37,8 @@
 }
 
 .heroTitle {
-  font-size: 58px;
-  color: var(--white);
+  font-size: 4rem;
+  color: var(--gray-light);
 }
 
 @media screen and (min-width: 40rem) {

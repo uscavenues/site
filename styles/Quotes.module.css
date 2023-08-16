@@ -1,0 +1,15 @@
+.quotesWrapper {
+  background-color: var(--avenues-dark);
+  color: var(--dark-bg-col);
+  margin: 3rem 0;
+}
+
+.quotesSec {
+  width: 45%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.quote {
+  font-size: 2rem;
+}

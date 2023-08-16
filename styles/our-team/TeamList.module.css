@@ -1,17 +1,22 @@
 .teamList {
-  padding: 3rem 0;
+  padding: 6rem 0;
+  background-color: var(--avenues-dark);
+  color: var(--dark-bg-col);
+  text-align: center;
+}
+
+.teamList h3 {
+  color: white;
 }
 
 .teamMems {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-items: center;
-  grid-gap: 1rem;
 }
 
 .memberImg {
   border: var(--gray-light);
-  border-radius: 1rem;
   width: 124px;
   height: 124px;
 }
@@ -22,8 +27,10 @@
 
 .memberName {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
+  padding: 0;
 }
+
 
 @media screen and (min-width: 22rem) {
   .teamMems {

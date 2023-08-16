@@ -1,34 +1,89 @@
-.heroSection {
+.hero {
   padding: 3rem 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.subText {
-  color: var(--avenues-pink-sec);
-  padding: 0.5rem 0;
+.taglineHeader {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 0;
+  line-height: 1.1;
 }
 
-.headingText {
-  line-height: 2.2rem;
-  width: 100%;
+.taglineText {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  opacity: 0.6;
 }
 
-.descText {
-  font-size: 20px;
-  padding: 1rem 0;
+.applyBut {
+  margin-bottom: 1.4rem;
+  margin-right: 0.4rem;
 }
 
-.boxedText {
-  background-color: var(--avenues-navy);
-  color: var(--white);
-  padding: 0 0.2rem;
+.noBut {
+  background-color: inherit;
+  border: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.imgSec {
+  position: relative;
+}
+
+.mainImg {
+  margin: 2rem 0 0 2rem;
+  position: relative;
+  width: 90%;
+  height: auto;
+  box-shadow: 0px 36px 72px -36px rgba(0, 0, 0, 0.1),
+    0px 60px 90px -60px rgba(25, 12, 12, 0.1);
+}
+
+.gradImg {
+  position: absolute;
+  width: 95%;
+  height: auto;
+  box-shadow: 0px 36px 72px -36px rgba(0, 0, 0, 0.1),
+    0px 60px 90px -60px rgba(25, 12, 12, 0.1);
 }
 
 @media screen and (min-width: 40rem) {
-  .headingText {
-    width: 70%;
+  .mainImg {
+    margin: 2rem 0 0 2.5rem;
+  }
+}
+
+@media screen and (min-width: 55rem) {
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .descText {
-    font-size: 24px;
+  .imgSec {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .imgSec {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 86rem) {
+  .hero {
+    width: 55%;
+  }
+
+  .taglineHeader {
+    font-size: 2.5rem;
+  }
+
+  .taglineText {
+    font-size: 1.5rem;
   }
 }

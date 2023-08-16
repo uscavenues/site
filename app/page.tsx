@@ -1,28 +1,20 @@
-import Navbar from "@/app/Navbar";
 import Footer from "@/app/Footer";
-import Shapes from "@/app/Shapes";
-import Description from "@/app/Description";
-import WhatWeDo from "@/app/WhatWeDo";
-import Hero from "@/app/Hero";
-import Timeline from "@/app/Timeline";
-import Community from "@/app/Community";
+import Hero from "./Hero";
+import Clients from "./Clients";
+import Navbar from "./Navbar";
+import Cards from "./Cards";
+import Quotes from "./Quotes";
+import MeetOurTeam from "./MeetOurTeam";
 
 export default function HomePage() {
   return (
     <>
-      <Shapes />
       <Navbar />
-      <main>
-        {/* Instagram embed */}
-        {/* <Script src="" strategy="lazyOnload" /> */}
-        {/* <Image src="/images/shapes/HorLine.svg" fill={true} alt="Seperation line" /> */}
-        {/* <Welcome /> */}
-        <Hero />
-        <Description />
-        <WhatWeDo />
-        <Community />
-      </main>
-      <Timeline />
+      <Hero />
+      <Cards />
+      <MeetOurTeam />
+      <Quotes />
+      <Clients />
       <Footer />
     </>
   );

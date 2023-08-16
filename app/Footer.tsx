@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.bottomText}>
-          <p>Copyright ©2023 Avenues Consulting Group.</p>
+          <p>Copyright &copy;2023 Avenues Consulting Group.</p>
         </div>
       </div>
     </footer>

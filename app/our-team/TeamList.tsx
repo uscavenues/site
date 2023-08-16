@@ -25,62 +25,55 @@ const membersList = [
     role: "Vice President",
     img: delaneImg,
   },
-  {
+    {
     id: 2,
-    name: "Mykaela Mae Ebalo",
-    role: "Director of Professional Development General",
-    img: mykaelaImg,
-  },
-  {
-    id: 3,
     name: "Jennifer Liu",
     role: "Director of Professional Development General",
     img: jennImg,
   },
 
   {
-    id: 4,
+    id: 3,
     name: "Jack Murphy",
     role: "Director of Professional Development Pre-Law",
     img: jackImg,
   },
   {
-    id: 5,
+    id: 4,
     name: "Josh Kim",
     role: "Director of Professional Development Pre-Health",
     img: joshImg,
   },
   {
-    id: 6,
+    id: 5,
     name: "Akash Khanna",
     role: "Director of Recruitment",
     img: akashImg,
   },
   {
-    id: 7,
+    id: 6,
     name: "Avinash Chauhan",
     role: "Director of Recruitment",
     img: avinashImg,
   },
   {
-    id: 8,
+    id: 7,
     name: "Gabriel Sianipar",
     role: "Director of Affairs",
     img: gabeImg,
   },
   {
-    id: 9,
+    id: 8,
     name: "Christian Yen",
     role: "Director of Affairs",
     img: christianImg,
   },
   {
-    id: 10,
+    id: 9,
     name: "Timothy Tso",
     role: "Director of Technology",
     img: timImg,
   },
-
   /*
   {
     id: 13,
@@ -94,19 +87,7 @@ const membersList = [
     role: "Director of Finance",
     img: "/images/team/members/ethan.jpg",
   },
-  {
-    id: 15,
-    name: "Wendi Lu",
-    role: "Director of Marketing",
-    img: "/images/team/members/wendi.jpg",
-  },
-  {
-    id: 16,
-    name: "Andy Le",
-    role: "Director of Design",
-    img: "/images/team/members/andy.jpg",
-  },
-  */
+    */
 ];
 
 export default function TeamList() {

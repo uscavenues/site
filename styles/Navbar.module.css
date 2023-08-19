@@ -1,11 +1,17 @@
 .navbarWrapper {
-  background: linear-gradient(var(--gray-light), white, white, white);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  top: -4rem;
+  height: 4rem;
+  transform: translateY(100%);
+  background-color: hsla(0, 0%, 100%, .9);
 }
 
 .navbar {
-  width: 80%;
   margin: 0 auto;
-  padding: 2.4rem 0;
+  padding: 1rem;
+  max-width: 80rem;
   display: flex;
   justify-content: space-between;
 }
@@ -24,6 +30,19 @@
   position: relative;
   width: 3rem;
   cursor: pointer;
+}
+
+.navLink {
+  font-size: .8rem;
+}
+
+.navLink button {
+  font-size: .8rem;
+}
+
+.navLink button:hover {
+  opacity: .8;
+  background-color: var(--avenues-dark);
 }
 
 .line:nth-child(1) {
@@ -67,6 +86,6 @@
 
 @media screen and (min-width: 86rem) {
   .navbar {
-    width: 96%;
+    width: 100%;
   }
 }

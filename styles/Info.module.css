@@ -1,15 +1,10 @@
-.meetWrap {
-  border-top: 1px solid var(--gray-lightest);
-}
-
-.meetSec {
+.infoSec {
   padding: 3rem 0;
   display: flex;
   justify-content: space-between;
   width: 55%;
   margin: 0 auto;
 }
-
 
 .img {
   width: 100%;
@@ -19,8 +14,8 @@
     0px 60px 90px -60px rgba(25, 12, 12, 0.1);
 }
 
-.meetContent {
+.infoContent {
   align-self: center;
-  margin-left: 2rem;
+  margin-right: 2rem;
   max-width: 50%;
 }

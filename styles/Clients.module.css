@@ -1,5 +1,6 @@
 .clientsWrapper {
-  margin-bottom: 3rem;
+  padding: 3rem 0;
+  border-top: 1px solid var(--gray-lightest);
 }
 
 .header {
@@ -13,10 +14,14 @@
 }
 
 .clientsSec {
-  width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+}
+
+.clientsSec img {
+  align-self: center;
+  margin: 0 1rem;
 }
 
 .clientImg {

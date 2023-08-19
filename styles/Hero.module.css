@@ -1,14 +1,23 @@
 .hero {
   padding: 3rem 0;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .taglineHeader {
-  font-size: 2rem;
-  font-weight: 600;
+  text-align: center;
+  font-weight: 900;
   padding-bottom: 0;
   line-height: 1.1;
+  font-size: 3.8rem;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.taglineContent {
+  padding: 2rem 0;
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 .taglineText {
@@ -34,7 +43,7 @@
 }
 
 .mainImg {
-  margin: 2rem 0 0 2rem;
+  margin: 1rem 0 0 1rem;
   position: relative;
   width: 90%;
   height: auto;
@@ -52,12 +61,12 @@
 
 @media screen and (min-width: 40rem) {
   .mainImg {
-    margin: 2rem 0 0 2.5rem;
+    margin: 1rem 0 0 1.5rem;
   }
 }
 
 @media screen and (min-width: 55rem) {
-  .hero {
+  .taglineContent {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,25 +74,5 @@
 
   .imgSec {
     margin-left: 1rem;
-  }
-}
-
-@media screen and (min-width: 65rem) {
-  .imgSec {
-    margin-left: 2rem;
-  }
-}
-
-@media screen and (min-width: 86rem) {
-  .hero {
-    width: 55%;
-  }
-
-  .taglineHeader {
-    font-size: 2.5rem;
-  }
-
-  .taglineText {
-    font-size: 1.5rem;
   }
 }

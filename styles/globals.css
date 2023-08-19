@@ -49,6 +49,10 @@ textarea:focus {
 
 /* general */
 
+main {
+  margin-top: 6rem;
+}
+
 html {
   font-size: 16px;
   font-weight: 300;
@@ -106,7 +110,7 @@ button {
   border: none;
   background-color: var(--avenues-dark);
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.5em 1em;
   border-radius: 1.2rem;
   transition: background-color 0.1s ease-in;
 }

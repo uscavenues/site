@@ -1,11 +1,13 @@
-import styles from "../styles/Quotes.module.css";
+import Image from "next/image";
+import styles from "../styles/Info.module.css";
+import team from "../public/images/team/teamhandsignlandscape.jpg";
 
-export default function Quotes() {
+export default function MeetOurTeam() {
   return (
-    <div className={styles.quotesWrapper}>
-      <h1 className={styles.title}></h1>
-      <div className={styles.quotesSec}>
-        <p className={styles.quote}>
+    <div className={styles.infoSec}>
+      <div className={styles.infoContent}>
+        <h2 className={styles.infoTitle}>Meet Our Team</h2>
+        <p className={styles.infoText}>
           Avenues Consulting provides tailored consulting and project-building
           opportunities for students of ALL majors and pre-professional goals.
           You’ll gain consulting experience while simultaneously immersing
@@ -14,6 +16,7 @@ export default function Quotes() {
           driven, and uplifting community!
         </p>
       </div>
+      <Image src={team} className={styles.img} alt="Full Avenues Team Image" />
     </div>
   );
 }

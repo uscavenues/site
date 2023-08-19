@@ -4,8 +4,8 @@ import "../styles/globals.css";
 const sora = Sora({
   weight: "variable",
   subsets: ["latin"],
-  variable: "--sora-font"
-})
+  variable: "--sora-font",
+});
 
 export const metadata = {
   title: "USC Avenues Consulting Group",

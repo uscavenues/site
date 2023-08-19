@@ -42,8 +42,9 @@ export default function Content() {
           <Link href="/member-interest-form-link">
             potential member interest form
           </Link>{" "}
-          or contact us at <a href="mailto:uscavenues@gmail.com">uscavenues@gmail.com</a> to learn more. We can&apos;t
-          wait to hear from you!
+          or contact us at{" "}
+          <a href="mailto:uscavenues@gmail.com">uscavenues@gmail.com</a> to
+          learn more. We can&apos;t wait to hear from you!
         </p>
       </div>
     </div>

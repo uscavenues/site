@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/MeetOurTeam.module.css";
 import team from "../public/images/team/teamhandsignlandscape.jpg";
 
@@ -19,7 +20,9 @@ export default function MeetOurTeam() {
             majors, experiences, and passions. We are here to create a fostering
             community along with providing opportunities to our members.
           </p>
-          <button>Learn more</button>
+          <Link href="/community">
+            <button>Learn more</button>
+          </Link>
         </div>
       </div>
     </div>

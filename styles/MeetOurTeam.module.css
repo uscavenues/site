@@ -3,13 +3,12 @@
 }
 
 .meetSec {
-  padding: 3rem 0;
+  padding: 2rem 0;
   display: flex;
   justify-content: space-between;
   width: 55%;
   margin: 0 auto;
 }
-
 
 .img {
   width: 100%;

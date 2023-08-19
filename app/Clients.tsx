@@ -23,11 +23,7 @@ export default function Clients() {
           className={styles.clientImg}
           alt="Doordash Client Logo"
         />
-        <Image
-          src={wtc}
-          className={styles.clientImg}
-          alt="WTC Client Logo"
-        />
+        <Image src={wtc} className={styles.clientImg} alt="WTC Client Logo" />
         <Image
           src={noc}
           className={styles.clientImg}
@@ -38,11 +34,7 @@ export default function Clients() {
           className={styles.clientImg}
           alt="Galla Beauty Client Logo"
         />
-        <Image
-          src={aanc}
-          className={styles.clientImg}
-          alt="AANC Client Logo"
-        />
+        <Image src={aanc} className={styles.clientImg} alt="AANC Client Logo" />
       </div>
     </div>
   );

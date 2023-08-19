@@ -5,7 +5,8 @@
   top: -4rem;
   height: 4rem;
   transform: translateY(100%);
-  background-color: hsla(0, 0%, 100%, .9);
+  background-color: hsla(0, 0%, 100%, 0.9);
+  border-bottom: 1px solid var(--gray-lightest);
 }
 
 .navbar {
@@ -33,15 +34,15 @@
 }
 
 .navLink {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .navLink button {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .navLink button:hover {
-  opacity: .8;
+  opacity: 0.8;
   background-color: var(--avenues-dark);
 }
 

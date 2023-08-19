@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 6rem 0;
   position: relative;
+  max-width: 30rem;
 }
 
 .header {
@@ -15,7 +16,7 @@
 }
 
 .teamImg {
-  width: 70%;
+  width: 60%;
   height: auto;
   position: relative;
 }

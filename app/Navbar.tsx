@@ -24,12 +24,21 @@ export default function Navbar() {
         </div>
         */}
         <div className={styles.navLinksSec}>
-          <Link className={styles.navLink} href="/aboutus">About Us</Link>
-          <Link className={styles.navLink} href="/community">Community</Link>
-          <Link className={styles.navLink} href="/our-team">Our Team</Link>
-          <Link className={styles.navLink} href="/contact">Client Interest Form</Link>
-          <Link className={styles.navLink} href="/interest-form-link"><button>Contact</button></Link>
-          <Link className={styles.navLink} href="/apply-link"><button>Apply</button></Link>
+          <Link className={styles.navLink} href="/aboutus">
+            About Us
+          </Link>
+          <Link className={styles.navLink} href="/community">
+            Community
+          </Link>
+          <Link className={styles.navLink} href="/contact">
+            Client Interest Form
+          </Link>
+          <Link className={styles.navLink} href="/interest-form-link">
+            <button>Contact</button>
+          </Link>
+          <Link className={styles.navLink} href="/apply-link">
+            <button>Apply</button>
+          </Link>
         </div>
       </div>
     </nav>

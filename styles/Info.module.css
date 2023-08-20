@@ -1,12 +1,10 @@
 .infoSec {
-  padding: 6rem;
-  display: flex;
-  justify-content: space-between;
-  width: 65%;
+  padding: 3rem;
   margin: 2rem auto;
-  border-radius: 8rem;
+  border-radius: 4rem;
   background-color: var(--avenues-sec-bg);
   color: var(--dark-bg-col);
+  width: 90%;
 }
 
 .img {
@@ -21,8 +19,18 @@
   color: var(--gray-lightest);
 }
 
-.infoContent {
-  align-self: center;
-  margin-right: 2rem;
-  max-width: 50%;
+@media screen and (min-width: 55rem) {
+  .infoSec {
+    padding: 6rem;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    border-radius: 8rem;
+  }
+
+  .infoContent {
+    align-self: center;
+    margin-right: 2rem;
+    max-width: 50%;
+  }
 }

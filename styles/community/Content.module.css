@@ -5,12 +5,28 @@
   max-width: 50rem;
 }
 
-.text {
-  width: 80%;
+.textSec {
+  padding: 1rem 0;
+}
+
+.contentImg {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  box-shadow: 0px 36px 72px -36px rgba(0, 0, 0, 0.1),
+    0px 60px 90px -60px rgba(25, 12, 12, 0.1);
+}
+
+.text2 {
+  margin-top: 1rem;
 }
 
 .bold {
   font-weight: 500;
+}
+
+.specialText {
+  padding: 1rem 0;
 }
 
 .teamTitle {
@@ -19,19 +35,29 @@
 }
 
 .teamList {
-  padding: 2rem 0;
+  padding: 1rem 0;
   max-width: 80rem;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 4rem;
   color: var(--dark-bg-col);
   text-align: center;
-  border-radius: 8rem;
+  border-radius: 4rem;
   background-color: var(--avenues-sec-bg);
 }
 
 .teamList h3 {
   color: var(--gray-lightest);
   font-size: 1.1rem;
+}
+
+.memberLink {
+  text-decoration: none;
+  transition: opacity 0.1s ease-in;
+}
+
+.memberLink:hover {
+  opacity: 0.8;
 }
 
 .teamMems {
@@ -69,6 +95,26 @@
 }
 
 @media screen and (min-width: 55rem) {
+  .teamList {
+    padding: 2rem 0;
+    border-radius: 8rem;
+  }
+
+  .textSec {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text {
+    align-self: center;
+    margin-right: 2rem;
+    max-width: 60%;
+  }
+
+  .text2 {
+    margin-left: 2rem;
+  }
+
   .memberImg {
     width: 174px;
     height: 174px;

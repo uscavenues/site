@@ -1,26 +1,45 @@
 .cardsSec {
   width: 90%;
   margin: 0 auto;
-  /* padding: 2rem 0; */
-  padding-bottom: 2rem;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  padding: 2rem 0;
 }
 
 .card {
-  width: 40rem;
-  margin: 0 1rem;
+  min-width: 80%;
+  margin-bottom: 2rem;
 }
 
-.card:nth-child(even) {
-  margin-top: 3rem;
+.cardsSec > div {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
-.card:nth-child(odd) {
-  margin-bottom: 3rem;
+@media screen and (min-width: 40rem) {
+  .card {
+    max-width: 20rem;
+    min-width: unset;
+    margin-bottom: unset;
+  }
 }
 
-@media screen and (min-width: 86rem) {
-  .cardsSec {
-    width: 95%;
+@media screen and (min-width: 50rem) {
+  .card:nth-child(1),
+  .card:nth-child(2),
+  .card:nth-child(3) {
+    margin-left: 1rem;
+  }
+
+  .card:nth-child(even) {
+    margin-top: 3rem;
+  }
+
+  .card:nth-child(odd) {
+    margin-bottom: 3rem;
   }
 }

@@ -27,13 +27,16 @@ export default function Navbar() {
           <Link className={styles.navLink} href="/aboutus">
             About Us
           </Link>
+          <Link className={styles.navLink} href="/services">
+            Services
+          </Link>
           <Link className={styles.navLink} href="/community">
             Community
           </Link>
           <Link className={styles.navLink} href="/contact">
             Client Interest Form
           </Link>
-          <Link className={styles.navLink} href="/interest-form-link">
+          <Link className={styles.navLink} href="/contact">
             <button>Contact</button>
           </Link>
           <Link className={styles.navLink} href="/apply-link">

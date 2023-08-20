@@ -1,11 +1,11 @@
 :root {
   --avenues-theme: #c193c5;
-  --avenues-sec: #7bc6cc;
-  --avenues-sec-bg: #244042;
-  --avenues-dark: #083134;
-  --dark-bg-col: #b2c4d5;
+  --avenues-sec: #5b82b4;
+  --avenues-sec-bg: #345075;
+  --avenues-dark: #14273e;
+  --dark-bg-col: rgb(193, 209, 224);
   --gray-lightest: #f2f2f2;
-  --gray-light: #a2a2a2;
+  --gray-light: #dcdcdc;
   --gray-dark: #4d4d4d;
 }
 
@@ -58,6 +58,7 @@ html {
   font-weight: 300;
   line-height: 1.4;
   font-family: var(--sora-font);
+  background-color: #eeeeee;
 }
 
 p {

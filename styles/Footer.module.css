@@ -4,7 +4,7 @@
 }
 
 .footerSection {
-  width: 80%;
+  max-width: 50rem;
   margin: 0 auto;
 }
 
@@ -19,9 +19,4 @@
 .bottomText {
   padding-bottom: 3rem;
   opacity: 0.6;
-}
-@media screen and (min-width: 86rem) {
-  .footerSection {
-    width: 55%;
-  }
 }

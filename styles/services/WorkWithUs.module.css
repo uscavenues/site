@@ -1,0 +1,21 @@
+.workSec {
+  padding: 3rem;
+  margin: 2rem auto;
+  border-radius: 4rem;
+  background-color: var(--avenues-sec-bg);
+  color: var(--dark-bg-col);
+  width: 90%;
+}
+
+.workTitle {
+  color: var(--gray-lightest);
+  text-align: center;
+}
+
+@media screen and (min-width: 55rem) {
+  .workSec {
+    padding: 3rem 6rem;
+    max-width: 50rem;
+    border-radius: 8rem;
+  }
+}

@@ -5,7 +5,7 @@ import doordash from "../public/images/clients/doordash.png";
 import wtc from "../public/images/clients/wtc.png";
 import noc from "../public/images/clients/NoC.png";
 import galla from "../public/images/clients/galla.jpg";
-import aanc from "../public/images/clients/aanc.png";
+import aanc from "../public/images/clients/aancnb.png";
 
 export default function Clients() {
   return (

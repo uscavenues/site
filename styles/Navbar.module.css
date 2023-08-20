@@ -5,8 +5,8 @@
   top: -4rem;
   height: 4rem;
   transform: translateY(100%);
-  background-color: hsla(0, 0%, 100%, 0.9);
-  border-bottom: 1px solid var(--gray-lightest);
+  background-color: hsla(0, 0%, 93%, 0.9);
+  border-bottom: 1px solid var(--gray-light);
 }
 
 .navbar {

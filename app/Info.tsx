@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "../styles/Info.module.css";
 import team from "../public/images/team/teamhandsignlandscape.jpg";
 
-export default function MeetOurTeam() {
+export default function Info() {
   return (
     <div className={styles.infoSec}>
       <div className={styles.infoContent}>

@@ -22,9 +22,9 @@ export default function Hero() {
           <Link href="/apply" className={styles.link}>
             <button className={styles.applyBut}>Apply now</button>
           </Link>
-          <Link href="/aboutus" className={styles.link}>
+          <Link href="/services" className={styles.link}>
             <button className={styles.applyBut + " " + styles.noBut}>
-              Learn more
+              Our services
             </button>
           </Link>
         </div>

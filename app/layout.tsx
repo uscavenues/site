@@ -13,11 +13,11 @@ export const metadata = {
   title: "USC Avenues Consulting Group",
   description:
     "USC's first-ever consulting group focusing on pre-professional industries and beyond through project-building",
-  // appleWebApp: {
-    // statusBarStyle: "black-translucent",
+  appleWebApp: {
+    statusBarStyle: "black-translucent",
     // startupImage: [
     // ],
-  // },
+  },
 };
 
 export default function RootLayout({

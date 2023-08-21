@@ -12,7 +12,7 @@ type MenuState = {
 };
 
 const StyledBurger = styled.button<MenuState>`
-  background-color: ${({ open }) => (open ? "var(--gray-medium)" : "inherit")};
+  background-color: ${({ open }) => (open ? "var(--gray-medium)" : "unset")};
 `;
 
 const StyledMenu = styled.div<MenuState>`
@@ -70,7 +70,7 @@ const Burger = ({ open, setOpen }: { open: boolean, setOpen: Function }) => {
   );
 };
 
-const Menu = ({ open, setOpen }: { open: boolean, setOpen: Function }) => {
+const Menu = ({ open }: { open: boolean, setOpen: Function }) => {
   return (
     <StyledMenu className={styles.menu} open={open}>
       <Link className={styles.menuLink} href="/aboutus">

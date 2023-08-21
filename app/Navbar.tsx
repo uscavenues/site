@@ -16,13 +16,11 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        {/*
-        <div className={styles.navLinksSec + " " + styles.navLinks}>
+        <div className={styles.navLinksSecMob + " " + styles.navLinks}>
           <span className={styles.line + " " + styles.navLinks}></span>
           <span className={styles.line + " " + styles.navLinks}></span>
           <span className={styles.line + " " + styles.navLinks}></span>
         </div>
-        */}
         <div className={styles.navLinksSec}>
           <Link className={styles.navLink} href="/aboutus">
             About Us
@@ -32,9 +30,6 @@ export default function Navbar() {
           </Link>
           <Link className={styles.navLink} href="/community">
             Community
-          </Link>
-          <Link className={styles.navLink} href="/contact">
-            Client Interest Form
           </Link>
           <Link className={styles.navLink} href="/contact">
             <button>Contact</button>

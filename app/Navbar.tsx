@@ -12,8 +12,13 @@ type MenuState = {
 };
 
 const StyledBurger = styled.button<MenuState>`
-  // background-color: ${({ open }) => (open ? "var(--gray-medium)" : "unset")};
-  background-color: var(--gray-medium);
+  background-color: ${({ open }) => (open ? "var(--gray-medium)" : "unset")};
+
+  &:hover,
+  &:active,
+  &:target {
+    background-color: ${({ open }) => (open ? "var(--gray-medium)" : "unset")};
+  }
 `;
 
 const StyledMenu = styled.div<MenuState>`
@@ -57,7 +62,7 @@ export default function Navbar() {
   );
 }
 
-const Burger = ({ open, setOpen }: { open: boolean, setOpen: Function }) => {
+const Burger = ({ open, setOpen }: { open: boolean; setOpen: Function }) => {
   return (
     <StyledBurger
       className={styles.navLinksSecMob}
@@ -71,7 +76,7 @@ const Burger = ({ open, setOpen }: { open: boolean, setOpen: Function }) => {
   );
 };
 
-const Menu = ({ open }: { open: boolean, setOpen: Function }) => {
+const Menu = ({ open }: { open: boolean; setOpen: Function }) => {
   return (
     <StyledMenu className={styles.menu} open={open}>
       <Link className={styles.menuLink} href="/aboutus">

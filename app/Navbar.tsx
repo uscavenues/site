@@ -13,6 +13,7 @@ type MenuState = {
 
 const StyledBurger = styled.button<MenuState>`
   background-color: ${({ open }) => (open ? "var(--gray-medium)" : "unset")};
+  transition: none;
 
   &:active,
   &:hover {

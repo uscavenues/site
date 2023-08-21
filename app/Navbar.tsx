@@ -7,11 +7,15 @@ import logo from "../public/images/logo.svg";
 import Link from "next/link";
 import styled from "styled-components";
 
-const StyledBurger = styled.button`
+type MenuState = {
+  open: boolean;
+};
+
+const StyledBurger = styled.button<MenuState>`
   background-color: ${({ open }) => (open ? "var(--gray-medium)" : "inherit")};
 `;
 
-const StyledMenu = styled.div`
+const StyledMenu = styled.div<MenuState>`
   display: ${({ open }) => (open ? "initial" : "none")};
 `;
 
@@ -52,7 +56,7 @@ export default function Navbar() {
   );
 }
 
-const Burger = ({ open, setOpen }) => {
+const Burger = ({ open, setOpen }: { open: boolean, setOpen: Function }) => {
   return (
     <StyledBurger
       className={styles.navLinksSecMob}
@@ -66,7 +70,7 @@ const Burger = ({ open, setOpen }) => {
   );
 };
 
-const Menu = ({ open, setOpen }) => {
+const Menu = ({ open, setOpen }: { open: boolean, setOpen: Function }) => {
   return (
     <StyledMenu className={styles.menu} open={open}>
       <Link className={styles.menuLink} href="/aboutus">

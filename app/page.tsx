@@ -3,7 +3,6 @@ import Hero from "./Hero";
 import Clients from "./Clients";
 import Navbar from "./Navbar";
 import Cards from "./Cards";
-import Quotes from "./Quotes";
 import MeetOurTeam from "./MeetOurTeam";
 import Info from "./Info";
 

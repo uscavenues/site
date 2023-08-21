@@ -13,6 +13,11 @@ export const metadata = {
   title: "USC Avenues Consulting Group",
   description:
     "USC's first-ever consulting group focusing on pre-professional industries and beyond through project-building",
+  // appleWebApp: {
+    // statusBarStyle: "black-translucent",
+    // startupImage: [
+    // ],
+  // },
 };
 
 export default function RootLayout({
@@ -22,13 +27,6 @@ export default function RootLayout({
 }) {
   return (
     <html className={sora.variable} lang="en">
-      <Head>
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta
-          name="apple-mobile-web-app-status-bar-style"
-          content="black-translucent"
-        />
-      </Head>
       <body>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>

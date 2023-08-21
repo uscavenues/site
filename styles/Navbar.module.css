@@ -33,12 +33,28 @@
   cursor: pointer;
 }
 
-.navLinksSec {
-  display: none;
+.menu {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  background-color: var(--gray-lightest);
+  box-shadow: 0px 18px 36px -18px rgba(0, 0, 0, 0.1),
+    0px 30px 45px -30px rgba(25, 12, 12, 0.1);
+  left: 0;
+  padding: 1rem 0;
+  top: 4rem;
+  opacity: .9;
 }
 
-.navLink {
-  font-size: 0.8rem;
+.menu a {
+  display: block;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  padding-left: 1rem;
+}
+
+.navLinksSec {
+  display: none;
 }
 
 .navLink button {
@@ -75,6 +91,7 @@
   margin-left: 1rem;
   text-decoration: none;
   transition: opacity 0.1s ease-in;
+  font-size: 0.8rem;
 }
 
 .navLink:hover {
@@ -87,6 +104,10 @@
   }
 
   .navLinksSec {
-    display:initial;
+    display: initial;
+  }
+
+  .menu {
+    display: none;
   }
 }

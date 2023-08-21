@@ -1,9 +1,23 @@
+"use client";
+
+import React from "react";
 import Image from "next/image";
 import styles from "../styles/Navbar.module.css";
 import logo from "../public/images/logo.svg";
 import Link from "next/link";
+import styled from "styled-components";
+
+const StyledBurger = styled.button`
+  background-color: ${({ open }) => (open ? "var(--gray-medium)" : "inherit")};
+`;
+
+const StyledMenu = styled.div`
+  display: ${({ open }) => (open ? "initial" : "none")};
+`;
 
 export default function Navbar() {
+  const [open, setOpen] = React.useState(false);
+
   return (
     <nav className={styles.navbarWrapper}>
       <div className={styles.navbar}>
@@ -16,21 +30,19 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        <div className={styles.navLinksSecMob + " " + styles.navLinks}>
-          <span className={styles.line + " " + styles.navLinks}></span>
-          <span className={styles.line + " " + styles.navLinks}></span>
-          <span className={styles.line + " " + styles.navLinks}></span>
-        </div>
+        <Burger open={open} setOpen={setOpen} />
+        <Menu open={open} setOpen={setOpen} />
         <div className={styles.navLinksSec}>
           <Link className={styles.navLink} href="/aboutus">
             About Us
           </Link>
-          <Link className={styles.navLink} href="/services">
-            Services
-          </Link>
           <Link className={styles.navLink} href="/community">
             Community
           </Link>
+          <Link className={styles.navLink} href="/services">
+            Services
+          </Link>
+
           <Link className={styles.navLink} href="/apply-link">
             <button>Apply</button>
           </Link>
@@ -39,3 +51,36 @@ export default function Navbar() {
     </nav>
   );
 }
+
+const Burger = ({ open, setOpen }) => {
+  return (
+    <StyledBurger
+      className={styles.navLinksSecMob}
+      open={open}
+      onClick={() => setOpen(!open)}
+    >
+      <span className={styles.line}></span>
+      <span className={styles.line}></span>
+      <span className={styles.line}></span>
+    </StyledBurger>
+  );
+};
+
+const Menu = ({ open, setOpen }) => {
+  return (
+    <StyledMenu className={styles.menu} open={open}>
+      <Link className={styles.menuLink} href="/aboutus">
+        About Us
+      </Link>
+      <Link className={styles.menuLink} href="/community">
+        Community
+      </Link>
+      <Link className={styles.menuLink} href="/services">
+        Services
+      </Link>
+      <Link className={styles.menuLink} href="/apply-link">
+        <button>Apply</button>
+      </Link>
+    </StyledMenu>
+  );
+};

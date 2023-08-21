@@ -12,7 +12,8 @@ type MenuState = {
 };
 
 const StyledBurger = styled.button<MenuState>`
-  background-color: ${({ open }) => (open ? "var(--gray-medium)" : "unset")};
+  // background-color: ${({ open }) => (open ? "var(--gray-medium)" : "unset")};
+  background-color: var(--gray-medium);
 `;
 
 const StyledMenu = styled.div<MenuState>`

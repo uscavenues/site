@@ -12,7 +12,7 @@
   top: calc(50% + 2rem);
   right: 0;
   z-index: 1;
-  color: var(--gray-light);
+  color: var(--gray-medium);
 }
 
 .teamImg {

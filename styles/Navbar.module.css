@@ -27,10 +27,14 @@
   height: auto;
 }
 
-.navLinksSec {
+.navLinksSecMob {
   position: relative;
   width: 3rem;
   cursor: pointer;
+}
+
+.navLinksSec {
+  display: none;
 }
 
 .navLink {
@@ -67,26 +71,22 @@
   left: calc(50% - 9px);
 }
 
-@media screen and (min-width: 55rem) {
-  .navLinksSec {
-    width: auto;
-    position: inherit;
-    cursor: auto;
-  }
-
-  .navLink {
-    margin-left: 1rem;
-    text-decoration: none;
-    transition: opacity 0.1s ease-in;
-  }
-
-  .navLink:hover {
-    opacity: 0.6;
-  }
+.navLink {
+  margin-left: 1rem;
+  text-decoration: none;
+  transition: opacity 0.1s ease-in;
 }
 
-@media screen and (min-width: 86rem) {
-  .navbar {
-    width: 100%;
+.navLink:hover {
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 55rem) {
+  .navLinksSecMob {
+    display: none;
+  }
+
+  .navLinksSec {
+    display:initial;
   }
 }

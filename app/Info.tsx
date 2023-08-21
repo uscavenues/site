@@ -6,7 +6,6 @@ export default function Info() {
   return (
     <div className={styles.infoSec}>
       <div className={styles.infoContent}>
-        <h2 className={styles.infoTitle}>Meet Our Team</h2>
         <p className={styles.infoText}>
           Avenues Consulting provides tailored consulting and project-building
           opportunities for students of ALL majors and pre-professional goals.
@@ -16,7 +15,6 @@ export default function Info() {
           driven, and uplifting community!
         </p>
       </div>
-      <Image src={team} className={styles.img} alt="Full Avenues Team Image" />
     </div>
   );
 }

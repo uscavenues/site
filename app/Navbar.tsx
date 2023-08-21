@@ -16,7 +16,7 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        <div className={styles.navLinksSecMob + " " + styles.navLinks}>
+        <div className={styles.navLinksSecMob + " " + styles.navLinks} onClick={openMenu}>
           <span className={styles.line + " " + styles.navLinks}></span>
           <span className={styles.line + " " + styles.navLinks}></span>
           <span className={styles.line + " " + styles.navLinks}></span>
@@ -30,9 +30,6 @@ export default function Navbar() {
           </Link>
           <Link className={styles.navLink} href="/community">
             Community
-          </Link>
-          <Link className={styles.navLink} href="/contact">
-            <button>Contact</button>
           </Link>
           <Link className={styles.navLink} href="/apply-link">
             <button>Apply</button>

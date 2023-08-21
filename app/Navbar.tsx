@@ -16,7 +16,7 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        <div className={styles.navLinksSecMob + " " + styles.navLinks} onClick={openMenu}>
+        <div className={styles.navLinksSecMob + " " + styles.navLinks}>
           <span className={styles.line + " " + styles.navLinks}></span>
           <span className={styles.line + " " + styles.navLinks}></span>
           <span className={styles.line + " " + styles.navLinks}></span>

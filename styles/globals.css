@@ -51,7 +51,8 @@ textarea:focus {
 /* general */
 
 main {
-  margin-top: 6rem;
+  padding-top: 6rem;
+  background-color: #eeeeee;
 }
 
 html {
@@ -59,7 +60,7 @@ html {
   font-weight: 300;
   line-height: 1.4;
   font-family: var(--sora-font);
-  background-color: #eeeeee;
+  background: var(--avenues-sec-bg);
 }
 
 p {

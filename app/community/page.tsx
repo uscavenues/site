@@ -7,8 +7,10 @@ export default function Community() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Content />
+      <main>
+        <Hero />
+        <Content />
+      </main>
       <Footer />
     </>
   );

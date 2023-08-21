@@ -3,7 +3,6 @@ import Footer from "@/app/Footer";
 import Hero from "./Hero";
 import Cards from "./Cards";
 import WorkWithUs from "./WorkWithUs";
-import Info from "./Info";
 
 export default function Services() {
   return (
@@ -12,7 +11,6 @@ export default function Services() {
       <main>
         <Hero />
         <Cards />
-        {/* <Info /> */}
         <WorkWithUs />
       </main>
       <Footer />

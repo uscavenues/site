@@ -90,7 +90,10 @@ const Menu = ({ open }: { open: boolean; setOpen: Function }) => {
       <Link className={styles.menuLink} href="/services">
         Services
       </Link>
-      <Link className={styles.menuLink} href="/apply-link">
+      <Link
+        className={styles.menuLink}
+        href="https://forms.gle/APuFisBnkJhGTkTcA"
+      >
         <button>Apply</button>
       </Link>
     </StyledMenu>

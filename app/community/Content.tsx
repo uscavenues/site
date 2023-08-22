@@ -11,6 +11,7 @@ import avinashImg from "../../public/images/team/members/avinash.jpg";
 import gabeImg from "../../public/images/team/members/gabe.jpg";
 import timImg from "../../public/images/team/members/tim.jpg";
 import christianImg from "../../public/images/team/members/christian.jpg";
+import benImg from "../../public/images/team/members/ben.jpg";
 import com1 from "../../public/images/community/social1.jpg";
 import com2 from "../../public/images/community/social2.jpg";
 
@@ -81,19 +82,18 @@ const membersList = [
   },
   {
     id: 9,
+    name: "Ben Reed",
+    role: "Director of Finance",
+    img: benImg,
+    linkedin: "https://www.linkedin.com/in/benreed4/",
+  },
+  {
+    id: 10,
     name: "Timothy Tso",
     role: "Director of Technology",
     img: timImg,
     linkedin: "https://www.linkedin.com/in/t1mtw0/",
   },
-  /*
-  {
-    id: 13,
-    name: "Ben Reed",
-    role: "Director of Human Resources",
-    img: "/images/team/members/ben.jpg",
-  },
-  */
 ];
 
 export default function Content() {
@@ -136,10 +136,18 @@ export default function Content() {
               passions and interests, and we strive to create an inclusive
               environment where everyone feels valued and respected.
             </p>
-            <Image src={com1} className={styles.contentImg} alt="Community Image 1" />
+            <Image
+              src={com1}
+              className={styles.contentImg}
+              alt="Community Image 1"
+            />
           </div>
           <div className={styles.textSec}>
-            <Image src={com2} className={styles.contentImg} alt="Community Image 2" />
+            <Image
+              src={com2}
+              className={styles.contentImg}
+              alt="Community Image 2"
+            />
             <p className={styles.text + " " + styles.text2}>
               By joining Avenues Consulting Group, not only will you unlock
               career opportunities, but also a network of students who are
@@ -152,8 +160,8 @@ export default function Content() {
             <span className={styles.bold}>
               Want to join our community?&nbsp;
             </span>
-            Fill out our {/* TODO: fill out link */}
-            <Link href="/member-interest-form-link">
+            Fill out our{" "}
+            <Link href="https://forms.gle/2qXD2SRk3LfSQfnFA">
               potential member interest form
             </Link>{" "}
             or contact us at{" "}

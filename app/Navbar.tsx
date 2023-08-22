@@ -52,8 +52,10 @@ export default function Navbar() {
           <Link className={styles.navLink} href="/services">
             Services
           </Link>
-
-          <Link className={styles.navLink} href="/apply-link">
+          <Link
+            className={styles.navLink}
+            href="https://forms.gle/APuFisBnkJhGTkTcA"
+          >
             <button>Apply</button>
           </Link>
         </div>

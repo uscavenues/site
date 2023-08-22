@@ -18,8 +18,10 @@ export default function Hero() {
             solutions for a wide range of industries such as medical, legal,
             real estate and technology.
           </p>
-          {/* TODO: fill out link */}
-          <Link href="/apply" className={styles.link}>
+          <Link
+            href="https://forms.gle/APuFisBnkJhGTkTcA"
+            className={styles.link}
+          >
             <button className={styles.applyBut}>Apply now</button>
           </Link>
           <Link href="/services" className={styles.link}>

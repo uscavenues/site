@@ -39,7 +39,7 @@ export default function Content() {
             Ready to take the first step in joining our team?&nbsp;
           </span>
           Fill out our{" "}
-          <Link href="/member-interest-form-link">
+          <Link href="https://forms.gle/2qXD2SRk3LfSQfnFA">
             potential member interest form
           </Link>{" "}
           or contact us at{" "}

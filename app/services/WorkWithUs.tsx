@@ -20,17 +20,13 @@ export default function WorkWithUs() {
           {/* or fill */}
           {/* out our{" "} */}
           {/* <a href="/member-form-interest-link"> */}
-            {/* potential client interest form */}
+          {/* potential client interest form */}
           {/* </a>{" "} */}
           to learn more about how we can collaborate and work together.
         </p>
         <p>
-          Check out our{" "}
-          <a href="/clientpacket.pdf">
-            client packet
-          </a>{" "}
-          to learn more about our services and how we can help you achieve your
-          goals.
+          Check out our <a href="/clientpacket.pdf">client packet</a> to learn
+          more about our services and how we can help you achieve your goals.
         </p>
       </div>
     </div>

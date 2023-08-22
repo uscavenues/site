@@ -16,16 +16,17 @@ export default function WorkWithUs() {
           help with a project, Avenues is here to support any of your needs. Our
           team of engineers, consultants, and designers are available to provide
           assistance and support. Contact us at{" "}
-          <a href="mailto:uscavenues@gmail.com">uscavenues@gmail.com</a> or fill
-          out our{" "}
-          <a href="/member-form-interest-link">
-            potential client interest form
-          </a>{" "}
+          <a href="mailto:uscavenues@gmail.com">uscavenues@gmail.com</a>
+          {/* or fill */}
+          {/* out our{" "} */}
+          {/* <a href="/member-form-interest-link"> */}
+            {/* potential client interest form */}
+          {/* </a>{" "} */}
           to learn more about how we can collaborate and work together.
         </p>
         <p>
           Check out our{" "}
-          <a href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6ad68eab-9117-4c64-be9d-0f1bb08c724f/avenues_clientpacket_(1).pdf">
+          <a href="/clientpacket.pdf">
             client packet
           </a>{" "}
           to learn more about our services and how we can help you achieve your

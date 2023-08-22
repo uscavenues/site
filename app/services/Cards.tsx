@@ -101,7 +101,7 @@ export default function Cards() {
               <ul>
                 <li>Tailor our consulting approach to specific needs</li>
                 <li>
-                  Ensure that the solutions provide dare practical, actionable,
+                  Ensure that the solutions provided are practical, actionable,
                   and aligned with long-term vision
                 </li>
               </ul>

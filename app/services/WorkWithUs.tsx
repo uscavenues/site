@@ -16,7 +16,7 @@ export default function WorkWithUs() {
           help with a project, Avenues is here to support any of your needs. Our
           team of engineers, consultants, and designers are available to provide
           assistance and support. Contact us at{" "}
-          <a href="mailto:uscavenues@gmail.com">uscavenues@gmail.com</a>
+          <a href="mailto:uscavenues@gmail.com">uscavenues@gmail.com</a>{" "}
           {/* or fill */}
           {/* out our{" "} */}
           {/* <a href="/member-form-interest-link"> */}

@@ -20,8 +20,9 @@
   flex-wrap: wrap;
 }
 
-.clientsSec img {
+.clientsSec a {
   margin: 1rem;
+  align-self: center;
 }
 
 .clientImg {
@@ -31,13 +32,8 @@
 
 .clientLink {
   display: inline;
-  align-self: center;
   height: auto;
   max-width: 30%;
-}
-
-.doordash {
-  align-self: center;
 }
 
 @media screen and (min-width: 86rem) {

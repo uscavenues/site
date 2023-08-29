@@ -28,8 +28,13 @@ export default function Clients() {
             alt="Doordash Client Logo"
           />
         </Link>
-        <Image src={wtc} className={styles.clientImg} alt="WTC Client Logo" />
-        <Link href="https://thenetworkofcare.org/" className={styles.clientLink}>
+        <Link href="" className={styles.clientLink}>
+          <Image src={wtc} className={styles.clientImg} alt="WTC Client Logo" />
+        </Link>
+        <Link
+          href="https://thenetworkofcare.org/"
+          className={styles.clientLink}
+        >
           <Image
             src={noc}
             className={styles.clientImg}

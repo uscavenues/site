@@ -21,11 +21,17 @@
 }
 
 .clientsSec img {
-  align-self: center;
   margin: 1rem;
 }
 
 .clientImg {
+  max-width: 100%;
+  height: auto;
+}
+
+.clientLink {
+  display: inline;
+  align-self: center;
   height: auto;
   max-width: 30%;
 }

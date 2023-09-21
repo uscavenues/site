@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Test.module.css";
 import img from "../public/images/content/consulting2.jpg";
-import grad from "../public/images/gradients/desk/1.png";
+import grad from "../public/images/gradients/1.png";
 
 export default function Test() {
   return (

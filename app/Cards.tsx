@@ -1,9 +1,9 @@
 import Image from "next/image";
 import styles from "../styles/Cards.module.css";
-import grad1 from "../public/images/gradients/desk/1.png";
-import grad2 from "../public/images/gradients/desk/2.png";
-import grad3 from "../public/images/gradients/desk/3.png";
-import grad5 from "../public/images/gradients/desk/5.png";
+import grad1 from "../public/images/gradients/1.png";
+import grad2 from "../public/images/gradients/2.png";
+import grad3 from "../public/images/gradients/3.png";
+import grad5 from "../public/images/gradients/5.png";
 
 export default function Cards() {
   return (

@@ -4,7 +4,6 @@ import styles from "../../styles/community/Content.module.css";
 import debraImg from "../../public/images/team/members/debra.jpg";
 import delaneImg from "../../public/images/team/members/delane.jpg";
 import jackImg from "../../public/images/team/members/jack.jpg";
-import joshImg from "../../public/images/team/members/josh.jpg";
 import jennImg from "../../public/images/team/members/jenn.jpg";
 import akashImg from "../../public/images/team/members/akash.jpg";
 import avinashImg from "../../public/images/team/members/avinash.jpg";
@@ -47,48 +46,41 @@ const membersList = [
   },
   {
     id: 4,
-    name: "Josh Kim",
-    role: "Director of Professional Development Pre-Health",
-    img: joshImg,
-    linkedin: "",
-  },
-  {
-    id: 5,
     name: "Akash Khanna",
     role: "Director of Recruitment",
     img: akashImg,
     linkedin: "https://www.linkedin.com/in/akash-khanna-/",
   },
   {
-    id: 6,
+    id: 5,
     name: "Avinash Chauhan",
     role: "Director of Recruitment",
     img: avinashImg,
     linkedin: "https://www.linkedin.com/in/avinashchauhanusc/",
   },
   {
-    id: 7,
+    id: 6,
     name: "Gabriel Sianipar",
     role: "Director of Affairs",
     img: gabeImg,
     linkedin: "https://www.linkedin.com/in/gabe-sianipar-b9987221a/",
   },
   {
-    id: 8,
+    id: 7,
     name: "Christian Yen",
     role: "Director of Affairs",
     img: christianImg,
     linkedin: "https://www.linkedin.com/in/christianyen/",
   },
   {
-    id: 9,
+    id: 8,
     name: "Ben Reed",
     role: "Director of Finance",
     img: benImg,
     linkedin: "https://www.linkedin.com/in/benreed4/",
   },
   {
-    id: 10,
+    id: 9,
     name: "Timothy Tso",
     role: "Director of Technology",
     img: timImg,

@@ -1,0 +1,62 @@
+.heroWrapper {
+  background-color: var(--avenues-theme);
+  margin-top: 1rem;
+}
+
+.hero {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  height: 34rem;
+}
+
+.logoImgs {
+  position: absolute;
+  height: 30rem;
+}
+
+.logo {
+  width: 22rem;
+  height: auto;
+}
+
+.logoBlack {
+  width: 24rem;
+  height: auto;
+  z-index: 1;
+}
+
+.logoWhite {
+  position: relative;
+  left: 22rem;
+}
+
+.mainTitle {
+  text-align: center;
+  color: var(--gray-lightest);
+  font-size: 4rem;
+  margin-top: 15rem;
+  font-weight: 700;
+}
+
+.desc {
+  color: var(--gray-light);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.noBut {
+  background-color: inherit;
+  border: none;
+  font-weight: 500;
+  color: var(--gray-lightest);
+}
+
+.applyBut {
+  font-size: 1rem;
+}
+
+.buttons {
+  text-align: center;
+}

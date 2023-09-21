@@ -12,8 +12,8 @@ export default function HomePage() {
     <>
       <Navbar />
       <main>
-        {/* <Hero /> */}
-        <NewHero />
+        <Hero />
+        {/* <NewHero /> */}
         <Cards />
         <MeetOurTeam />
         <Info />

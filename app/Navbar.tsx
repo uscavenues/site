@@ -54,7 +54,7 @@ export default function Navbar() {
           </Link>
           <Link
             className={styles.navLink}
-            href="https://forms.gle/APuFisBnkJhGTkTcA"
+            href="https://forms.gle/e63mdyowrN3vvTRF9"
           >
             <button>Apply</button>
           </Link>

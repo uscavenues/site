@@ -12,3 +12,140 @@
 .bold {
   font-weight: 500;
 }
+
+.textSec {
+  padding: 1rem 0;
+}
+
+.contentImg {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  box-shadow: 0px 36px 72px -36px rgba(0, 0, 0, 0.1),
+    0px 60px 90px -60px rgba(25, 12, 12, 0.1);
+}
+
+.text2 {
+  margin-top: 1rem;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.specialText {
+  padding: 1rem 0;
+}
+
+.teamTitle {
+  color: var(--gray-lightest);
+  margin: 1rem 0;
+}
+
+.teamList {
+  padding: 1rem 0;
+  max-width: 80rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  color: var(--dark-bg-col);
+  text-align: center;
+  border-radius: 4rem;
+  background-color: var(--avenues-sec-bg);
+}
+
+.teamList h3 {
+  color: var(--gray-lightest);
+  font-size: 1.1rem;
+}
+
+.memberLink {
+  text-decoration: none;
+  transition: opacity 0.1s ease-in;
+}
+
+.memberLink:hover {
+  opacity: 0.8;
+}
+
+.teamMems {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
+.memberImg {
+  border: var(--gray-light);
+  width: 124px;
+  height: 124px;
+}
+
+.memberInfo {
+  width: 124px;
+}
+
+.memberName {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
+}
+
+@media screen and (min-width: 22rem) {
+  .teamMems {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  .teamMems {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 55rem) {
+  .teamList {
+    padding: 2rem 0;
+    border-radius: 8rem;
+  }
+
+  .textSec {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text {
+    align-self: center;
+    margin-right: 2rem;
+    max-width: 60%;
+  }
+
+  .text2 {
+    margin-left: 2rem;
+  }
+
+  .memberImg {
+    width: 174px;
+    height: 174px;
+  }
+
+  .memberInfo {
+    width: 174px;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .memberImg {
+    width: 224px;
+    height: 224px;
+  }
+
+  .memberInfo {
+    width: 224px;
+  }
+}
+
+@media screen and (min-width: 86rem) {
+  .teamMems {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

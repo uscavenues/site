@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../../styles/community/Hero.module.css";
-import team from "../../public/images/team/fullteam.jpg";
+import team from "../../public/images/community/retreat-team.jpg";
 
 export default function Hero() {
   return (

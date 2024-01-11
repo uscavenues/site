@@ -11,23 +11,23 @@ import gabeImg from "../../public/images/team/members/gabe.jpg";
 import timImg from "../../public/images/team/members/tim.jpg";
 import christianImg from "../../public/images/team/members/christian.jpg";
 import benImg from "../../public/images/team/members/ben.jpg";
-import com1 from "../../public/images/community/social1.jpg";
-import com2 from "../../public/images/community/social2.jpg";
+import com1 from "../../public/images/community/gameday1.jpg";
+import com2 from "../../public/images/community/retreat4.jpg";
 
 const membersList = [
   {
     id: 0,
-    name: "Debra Erdenemandakh",
+    name: "Delane Ly",
     role: "President",
-    img: debraImg,
-    linkedin: "https://www.linkedin.com/in/debraerdene/",
+    img: delaneImg,
+    linkedin: "https://www.linkedin.com/in/delanely/",
   },
   {
     id: 1,
-    name: "Delane Ly",
+    name: "Debra Erdenemandakh",
     role: "Vice President",
-    img: delaneImg,
-    linkedin: "https://www.linkedin.com/in/delanely/",
+    img: debraImg,
+    linkedin: "https://www.linkedin.com/in/debraerdene/",
   },
   {
     id: 2,
@@ -162,10 +162,12 @@ export default function Content() {
           </p>
         </div>
       </div>
+      {/*
       <div className={styles.teamList}>
         <h2 className={styles.teamTitle}>Our Team</h2>
         <div className={styles.teamMems}>{members}</div>
       </div>
+              */}
     </>
   );
 }

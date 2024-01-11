@@ -19,7 +19,7 @@ export default function Hero() {
             real estate and technology.
           </p>
           <Link
-            href="https://forms.gle/APuFisBnkJhGTkTcA"
+            href="https://forms.gle/e63mdyowrN3vvTRF9"
             className={styles.link}
           >
             <button className={styles.applyBut}>Apply now</button>

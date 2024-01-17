@@ -1,8 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Hero.module.css";
 import gradient from "../public/images/gradients/4.png";
 import img from "../public/images/content/consulting2.jpg";
-import Link from "next/link";
 
 export default function Hero() {
   return (
